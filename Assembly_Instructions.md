@@ -4,7 +4,7 @@
 - front panel PCB with cutouts for SMA connectors
 - back panel PCB
 - [Hammand 1445L1201 enclosure enclosure](https://www.hawkusa.com/manufacturers/hammond-mfg/enclosures/box-metal/1455l1201?utm_source=octopart&utm_medium=cpc)
-- [power jumper cables](https://www.adafruit.com/product/4714)
+- [JST-PH 2 pin power jumper cables](https://www.adafruit.com/product/4714)
 - [i2c JST-PH 4 jumper / STEMMA cable](https://www.adafruit.com/product/3568)
 - [QT-py adafruit microcontroller](https://www.adafruit.com/product/4600)
 - DB9 female pigtail
