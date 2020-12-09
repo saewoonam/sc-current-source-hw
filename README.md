@@ -5,3 +5,5 @@
 - front_panel:  PCB design for the front panel of the enclosure
 - back_panel:  PCB design for rthe back panel of the enclosure
 - supercables-curernt-source-enclosure:  FreeCAD file and step files of the assembled box
+
+## [Assembly Instructions](https://github.com/saewoonam/sc-current-source-hw/blob/main/Assembly_Instructions.md)
