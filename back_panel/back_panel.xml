@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/Users/nams/Documents/projects/kicad/back_panel/back_panel.sch</source>
-    <date>Saturday, December 05, 2020 at 11:18:30 AM</date>
+    <source>/Users/nams/Documents/projects/supercables_electronics/back_panel/back_panel.sch</source>
+    <date>Wednesday, December 16, 2020 at 04:44:30 PM</date>
     <tool>Eeschema (5.1.5-0)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -40,7 +40,7 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="MFR">JST</field>
-        <field name="MPN">B4B-PH-SM4-TB</field>
+        <field name="MPN">B4B-PH-SM4-TB(lf)(sn)</field>
         <field name="SPN">-</field>
         <field name="SPR">-</field>
         <field name="SPURL">-</field>
@@ -69,7 +69,7 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="MFR">JST</field>
-        <field name="MPN">B2B-PH-SM4-TB</field>
+        <field name="MPN">B2B-PH-SM4-TB(lf)(sn)</field>
         <field name="SPN">-</field>
         <field name="SPR">-</field>
         <field name="SPURL">-</field>
@@ -84,7 +84,7 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="MFR">JST</field>
-        <field name="MPN">B2B-PH-SM4-TB</field>
+        <field name="MPN">B2B-PH-SM4-TB(lf)(sn)</field>
         <field name="SPN">-</field>
         <field name="SPR">-</field>
         <field name="SPURL">-</field>

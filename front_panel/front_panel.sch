@@ -96,7 +96,7 @@ U 1 1 5FC41E62
 P 2600 2700
 F 0 "J2" H 2700 2675 50  0000 L CNN
 F 1 "Conn_Coaxial" H 2700 2584 50  0000 L CNN
-F 2 "" H 2600 2700 50  0001 C CNN
+F 2 "0my_footprints:sma_panel" H 2600 2700 50  0001 C CNN
 F 3 " ~" H 2600 2700 50  0001 C CNN
 	1    2600 2700
 	1    0    0    -1  
@@ -107,7 +107,7 @@ U 1 1 5FC43C50
 P 2600 3150
 F 0 "J3" H 2700 3125 50  0000 L CNN
 F 1 "Conn_Coaxial" H 2700 3034 50  0000 L CNN
-F 2 "" H 2600 3150 50  0001 C CNN
+F 2 "0my_footprints:sma_panel" H 2600 3150 50  0001 C CNN
 F 3 " ~" H 2600 3150 50  0001 C CNN
 	1    2600 3150
 	1    0    0    -1  
@@ -118,7 +118,7 @@ U 1 1 5FC445BF
 P 2600 3600
 F 0 "J4" H 2700 3575 50  0000 L CNN
 F 1 "Conn_Coaxial" H 2700 3484 50  0000 L CNN
-F 2 "" H 2600 3600 50  0001 C CNN
+F 2 "0my_footprints:sma_panel" H 2600 3600 50  0001 C CNN
 F 3 " ~" H 2600 3600 50  0001 C CNN
 	1    2600 3600
 	1    0    0    -1  
@@ -129,7 +129,7 @@ U 1 1 5FC449E5
 P 2600 4050
 F 0 "J5" H 2700 4025 50  0000 L CNN
 F 1 "Conn_Coaxial" H 2700 3934 50  0000 L CNN
-F 2 "" H 2600 4050 50  0001 C CNN
+F 2 "0my_footprints:sma_panel" H 2600 4050 50  0001 C CNN
 F 3 " ~" H 2600 4050 50  0001 C CNN
 	1    2600 4050
 	1    0    0    -1  
@@ -140,7 +140,7 @@ U 1 1 5FC44EB0
 P 2600 4500
 F 0 "J6" H 2700 4475 50  0000 L CNN
 F 1 "Conn_Coaxial" H 2700 4384 50  0000 L CNN
-F 2 "" H 2600 4500 50  0001 C CNN
+F 2 "0my_footprints:sma_panel" H 2600 4500 50  0001 C CNN
 F 3 " ~" H 2600 4500 50  0001 C CNN
 	1    2600 4500
 	1    0    0    -1  
@@ -151,7 +151,7 @@ U 1 1 5FC453BD
 P 2600 4900
 F 0 "J7" H 2700 4875 50  0000 L CNN
 F 1 "Conn_Coaxial" H 2700 4784 50  0000 L CNN
-F 2 "" H 2600 4900 50  0001 C CNN
+F 2 "0my_footprints:sma_panel" H 2600 4900 50  0001 C CNN
 F 3 " ~" H 2600 4900 50  0001 C CNN
 	1    2600 4900
 	1    0    0    -1  
@@ -162,7 +162,7 @@ U 1 1 5FC456FC
 P 2600 5400
 F 0 "J8" H 2700 5375 50  0000 L CNN
 F 1 "Conn_Coaxial" H 2700 5284 50  0000 L CNN
-F 2 "" H 2600 5400 50  0001 C CNN
+F 2 "0my_footprints:sma_panel" H 2600 5400 50  0001 C CNN
 F 3 " ~" H 2600 5400 50  0001 C CNN
 	1    2600 5400
 	1    0    0    -1  

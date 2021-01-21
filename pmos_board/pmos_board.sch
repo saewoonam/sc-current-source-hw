@@ -1,0 +1,437 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 9
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Interface_Expansion:TCA9534 U1
+U 1 1 5FF45680
+P 5250 3750
+F 0 "U1" H 4750 4400 50  0000 C CNN
+F 1 "TCA9534APWR" H 4900 4300 50  0000 C CNN
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 6200 3200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tca9534.pdf" H 5350 3650 50  0001 C CNN
+F 4 "C206010" H 5250 3750 50  0001 C CNN "LCSC"
+F 5 "TCA9534APWR" H 5250 3750 50  0001 C CNN "MPN"
+	1    5250 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 3450 5900 3450
+Wire Wire Line
+	5650 3550 5900 3550
+Wire Wire Line
+	5900 3650 5650 3650
+Wire Wire Line
+	5650 3750 5900 3750
+Wire Wire Line
+	5900 3850 5650 3850
+Wire Wire Line
+	5650 3950 5900 3950
+Wire Wire Line
+	5900 4050 5650 4050
+Wire Wire Line
+	5650 4150 5900 4150
+Text Label 5700 3450 0    50   ~ 0
+sw1
+Text Label 5700 3550 0    50   ~ 0
+sw2
+Text Label 5700 3650 0    50   ~ 0
+sw3
+Text Label 5700 3750 0    50   ~ 0
+sw4
+Text Label 5700 3850 0    50   ~ 0
+sw5
+Text Label 5700 3950 0    50   ~ 0
+sw6
+Text Label 5700 4050 0    50   ~ 0
+sw7
+Text Label 5700 4150 0    50   ~ 0
+sw8
+Wire Wire Line
+	4850 4050 4500 4050
+Wire Wire Line
+	4700 4300 4700 4600
+Wire Wire Line
+	5250 3100 5250 3150
+$Comp
+L Device:C C1
+U 1 1 5FF6F9C1
+P 5600 3000
+F 0 "C1" H 5715 3046 50  0000 L CNN
+F 1 "100nF" H 5715 2955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5638 2850 50  0001 C CNN
+F 3 "~" H 5600 3000 50  0001 C CNN
+F 4 "CC0603KRX7R9BB104" H 5600 3000 50  0001 C CNN "MPN"
+F 5 "C14663" H 5600 3000 50  0001 C CNN "LCSC"
+	1    5600 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 3150 5400 3150
+Connection ~ 5250 3150
+$Comp
+L power:+3V3 #PWR06
+U 1 1 5FF86A8D
+P 5250 3100
+F 0 "#PWR06" H 5250 2950 50  0001 C CNN
+F 1 "+3V3" H 5265 3273 50  0000 C CNN
+F 2 "" H 5250 3100 50  0001 C CNN
+F 3 "" H 5250 3100 50  0001 C CNN
+	1    5250 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR01
+U 1 1 5FF870CE
+P 2850 2950
+F 0 "#PWR01" H 2850 2800 50  0001 C CNN
+F 1 "+3V3" H 2865 3123 50  0000 C CNN
+F 2 "" H 2850 2950 50  0001 C CNN
+F 3 "" H 2850 2950 50  0001 C CNN
+	1    2850 2950
+	1    0    0    -1  
+$EndComp
+Text Label 3200 3050 2    50   ~ 0
+sda
+Text Label 3200 3150 2    50   ~ 0
+scl
+Text Label 4850 3550 2    50   ~ 0
+sda
+Text Label 4850 3450 2    50   ~ 0
+scl
+$Sheet
+S 7050 1950 550  250 
+U 5FF88EFB
+F0 "Sheet5FF88EFA" 50
+F1 "coax_ch.sch" 50
+F2 "DIN" I L 7050 2100 50 
+$EndSheet
+$Sheet
+S 7050 2400 550  250 
+U 5FF8AEBC
+F0 "sheet5FF8AEB9" 50
+F1 "coax_ch.sch" 50
+F2 "DIN" I L 7050 2550 50 
+$EndSheet
+$Sheet
+S 7050 2850 550  250 
+U 5FF8B431
+F0 "sheet5FF8B42D" 50
+F1 "coax_ch.sch" 50
+F2 "DIN" I L 7050 3000 50 
+$EndSheet
+$Sheet
+S 7050 3300 550  250 
+U 5FF8B434
+F0 "sheet5FF8B42E" 50
+F1 "coax_ch.sch" 50
+F2 "DIN" I L 7050 3450 50 
+$EndSheet
+$Sheet
+S 7050 3750 550  250 
+U 5FF8BA73
+F0 "sheet5FF8BA6D" 50
+F1 "coax_ch.sch" 50
+F2 "DIN" I L 7050 3900 50 
+$EndSheet
+$Sheet
+S 7050 4200 550  250 
+U 5FF8BA76
+F0 "sheet5FF8BA6E" 50
+F1 "coax_ch.sch" 50
+F2 "DIN" I L 7050 4350 50 
+$EndSheet
+$Sheet
+S 7050 4650 550  250 
+U 5FF8BA79
+F0 "sheet5FF8BA6F" 50
+F1 "coax_ch.sch" 50
+F2 "DIN" I L 7050 4800 50 
+$EndSheet
+$Sheet
+S 7050 5100 550  250 
+U 5FF8BA7C
+F0 "sheet5FF8BA70" 50
+F1 "coax_ch.sch" 50
+F2 "DIN" I L 7050 5250 50 
+$EndSheet
+Text Label 7050 2100 2    50   ~ 0
+sw1
+Text Label 7050 2550 2    50   ~ 0
+sw2
+Text Label 7050 3000 2    50   ~ 0
+sw3
+Text Label 7050 3450 2    50   ~ 0
+sw4
+Text Label 7050 3900 2    50   ~ 0
+sw5
+Text Label 7050 4350 2    50   ~ 0
+sw6
+Text Label 7050 4800 2    50   ~ 0
+sw7
+Text Label 7050 5250 2    50   ~ 0
+sw8
+$Comp
+L power:GND #PWR0104
+U 1 1 5FFA2A65
+P 1900 3800
+F 0 "#PWR0104" H 1900 3550 50  0001 C CNN
+F 1 "GND" H 1905 3627 50  0000 C CNN
+F 2 "" H 1900 3800 50  0001 C CNN
+F 3 "" H 1900 3800 50  0001 C CNN
+	1    1900 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5FFA3037
+P 1900 3800
+F 0 "#FLG0101" H 1900 3875 50  0001 C CNN
+F 1 "PWR_FLAG" H 1900 3973 50  0000 C CNN
+F 2 "" H 1900 3800 50  0001 C CNN
+F 3 "~" H 1900 3800 50  0001 C CNN
+	1    1900 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR0105
+U 1 1 5FF528D0
+P 3050 2850
+F 0 "#PWR0105" H 3050 2600 50  0001 C CNN
+F 1 "GNDD" H 3054 2695 50  0000 C CNN
+F 2 "" H 3050 2850 50  0001 C CNN
+F 3 "" H 3050 2850 50  0001 C CNN
+	1    3050 2850
+	-1   0    0    1   
+$EndComp
+$Comp
+L 0my_intf:Conn_01x04_i2c J1
+U 1 1 5FF52F8D
+P 4350 2950
+F 0 "J1" H 4560 2950 50  0000 L CNN
+F 1 "Conn_01x04" H 4560 2859 50  0000 L CNN
+F 2 "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical" H 4350 2950 50  0001 C CNN
+F 3 "~" H 4350 2950 50  0001 C CNN
+F 4 "JST_SH_BM04B-SRSS-TB" H 4350 2950 50  0001 C CNN "MPN"
+	1    4350 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 3150 3200 3150
+Wire Wire Line
+	4150 3050 3200 3050
+Text Label 4150 3050 2    50   ~ 0
+sda
+Text Label 4100 3150 2    50   ~ 0
+scl
+$Comp
+L power:GNDD #PWR0106
+U 1 1 5FF55C73
+P 4700 4600
+F 0 "#PWR0106" H 4700 4350 50  0001 C CNN
+F 1 "GNDD" H 4704 4445 50  0000 C CNN
+F 2 "" H 4700 4600 50  0001 C CNN
+F 3 "" H 4700 4600 50  0001 C CNN
+	1    4700 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR0107
+U 1 1 5FF56A4D
+P 5250 4450
+F 0 "#PWR0107" H 5250 4200 50  0001 C CNN
+F 1 "GNDD" H 5254 4295 50  0000 C CNN
+F 2 "" H 5250 4450 50  0001 C CNN
+F 3 "" H 5250 4450 50  0001 C CNN
+	1    5250 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR0109
+U 1 1 5FF57B92
+P 5600 2850
+F 0 "#PWR0109" H 5600 2600 50  0001 C CNN
+F 1 "GNDD" H 5604 2695 50  0000 C CNN
+F 2 "" H 5600 2850 50  0001 C CNN
+F 3 "" H 5600 2850 50  0001 C CNN
+	1    5600 2850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4650 4450 4650 4300
+Wire Wire Line
+	4650 4300 4700 4300
+Wire Wire Line
+	4650 4450 4500 4450
+Wire Wire Line
+	4500 4450 4500 4150
+Wire Wire Line
+	4500 4150 4500 4050
+Connection ~ 4500 4150
+Connection ~ 4500 4050
+Wire Wire Line
+	4500 4050 4350 4050
+Wire Wire Line
+	4500 4050 4500 3950
+Connection ~ 4500 3950
+Wire Wire Line
+	4500 3950 4850 3950
+Wire Wire Line
+	2850 2950 3000 2950
+$Comp
+L power:GNDD #PWR0101
+U 1 1 603129A8
+P 6300 4350
+F 0 "#PWR0101" H 6300 4100 50  0001 C CNN
+F 1 "GNDD" H 6304 4195 50  0000 C CNN
+F 2 "" H 6300 4350 50  0001 C CNN
+F 3 "" H 6300 4350 50  0001 C CNN
+	1    6300 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0my_intf:R_Network04_individual RN1
+U 1 1 60327AFB
+P 6100 3550
+F 0 "RN1" V 6425 3550 50  0000 C CNN
+F 1 "4 x 10K ohm" V 6334 3550 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Concave_4x0603" V 6375 3550 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 6100 3550 50  0001 C CNN
+F 4 "4D03WGJ0103T5E" V 6100 3550 50  0001 C CNN "MPN"
+F 5 "C29718" V 6100 3550 50  0001 C CNN "LCSC"
+	1    6100 3550
+	0    1    -1   0   
+$EndComp
+$Comp
+L 0my_intf:R_Network04_individual RN2
+U 1 1 6032B988
+P 6100 3950
+F 0 "RN2" V 5683 3950 50  0000 C CNN
+F 1 "4 x 10K ohm" V 5800 3950 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Concave_4x0603" V 6375 3950 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 6100 3950 50  0001 C CNN
+F 4 "4D03WGJ0103T5E" V 6100 3950 50  0001 C CNN "MPN"
+F 5 "C29718" V 6100 3950 50  0001 C CNN "LCSC"
+	1    6100 3950
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	6300 3450 6300 3550
+Connection ~ 6300 3550
+Wire Wire Line
+	6300 3550 6300 3650
+Connection ~ 6300 3650
+Wire Wire Line
+	6300 3650 6300 3750
+Connection ~ 6300 3750
+Connection ~ 6300 3950
+Wire Wire Line
+	6300 3950 6300 4050
+Connection ~ 6300 4050
+Wire Wire Line
+	6300 4050 6300 4150
+Wire Wire Line
+	6300 3750 6300 3850
+Wire Wire Line
+	6300 3850 6300 3950
+Connection ~ 6300 3850
+Wire Wire Line
+	6300 4150 6300 4350
+Connection ~ 6300 4150
+Wire Wire Line
+	3050 2850 4150 2850
+$Comp
+L 0my_intf:R_Network04_individual RN3
+U 1 1 6036C051
+P 3600 3550
+F 0 "RN3" V 3925 3550 50  0000 C CNN
+F 1 "4 x 10K ohm" V 3834 3550 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Concave_4x0603" V 3875 3550 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 3600 3550 50  0001 C CNN
+F 4 "4D03WGJ0103T5E" V 3600 3550 50  0001 C CNN "MPN"
+F 5 "C29718" V 3600 3550 50  0001 C CNN "LCSC"
+	1    3600 3550
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	3400 3750 3400 3650
+Wire Wire Line
+	3400 3450 3000 3450
+Wire Wire Line
+	3000 3450 3000 2950
+Connection ~ 3400 3450
+Connection ~ 3400 3550
+Wire Wire Line
+	3400 3550 3400 3450
+Connection ~ 3400 3650
+Wire Wire Line
+	3400 3650 3400 3550
+Connection ~ 3000 2950
+Wire Wire Line
+	3000 2950 4150 2950
+Connection ~ 3000 3450
+Wire Wire Line
+	3000 3450 2100 3450
+Wire Wire Line
+	4850 3550 4300 3550
+Wire Wire Line
+	4300 3550 4300 3450
+Wire Wire Line
+	3800 3450 4300 3450
+Wire Wire Line
+	4050 3550 4050 3350
+Wire Wire Line
+	4050 3350 4850 3350
+Wire Wire Line
+	4850 3350 4850 3450
+Wire Wire Line
+	3800 3550 4050 3550
+Wire Wire Line
+	3800 3650 4850 3650
+NoConn ~ 3800 3750
+Wire Wire Line
+	3250 3950 4500 3950
+Wire Wire Line
+	4650 4150 4850 4150
+Wire Wire Line
+	4500 4150 4650 4150
+Connection ~ 4650 4150
+$Comp
+L power:PWR_FLAG #FLG0104
+U 1 1 5FFA4EA4
+P 4650 4150
+F 0 "#FLG0104" H 4650 4225 50  0001 C CNN
+F 1 "PWR_FLAG" H 4650 4323 50  0000 C CNN
+F 2 "" H 4650 4150 50  0001 C CNN
+F 3 "~" H 4650 4150 50  0001 C CNN
+	1    4650 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 60380C92
+P 5400 3150
+F 0 "#FLG0102" H 5400 3225 50  0001 C CNN
+F 1 "PWR_FLAG" H 5400 3323 50  0000 C CNN
+F 2 "" H 5400 3150 50  0001 C CNN
+F 3 "~" H 5400 3150 50  0001 C CNN
+	1    5400 3150
+	1    0    0    -1  
+$EndComp
+Connection ~ 5400 3150
+Wire Wire Line
+	5400 3150 5250 3150
+NoConn ~ 3750 4250
+NoConn ~ 6050 3450
+$EndSCHEMATC
