@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 9
+Sheet 1 17
 Title ""
 Date ""
 Rev ""
@@ -216,7 +216,7 @@ F 3 "" H 3050 2850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 0my_intf:Conn_01x04_i2c J1
+L 0my_intf:JST_SH_Conn_01x04_i2c J1
 U 1 1 5FF52F8D
 P 4350 2950
 F 0 "J1" H 4560 2950 50  0000 L CNN
