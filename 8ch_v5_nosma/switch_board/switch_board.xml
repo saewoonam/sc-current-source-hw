@@ -1,0 +1,1755 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/nams/Documents/projects/supercables_electronics/8ch_v5_nosma/switch_board/switch_board.sch</source>
+    <date>Sunday, January 10, 2021 at 07:54:43 PM</date>
+    <tool>Eeschema (5.1.5-0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>switch_board.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Sheet601B3DC5/" tstamps="/601B3DC6/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>relay.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Sheet601B43CA/" tstamps="/601B43CB/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>i2c.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/sheet601BFE22/" tstamps="/601BFE27/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>relay.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/sheet601C0132/" tstamps="/601C0138/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>relay.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/sheet601C0133/" tstamps="/601C013D/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>relay.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/sheet601C0778/" tstamps="/601C0780/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>relay.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="8" name="/sheet601C0779/" tstamps="/601C0785/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>relay.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="9" name="/sheet601C077A/" tstamps="/601C078A/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>relay.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="10" name="/sheet601C077B/" tstamps="/601C078F/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>relay.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J3">
+      <value>Conn_02x08_Odd_Even</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_2x08_P2.54mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">PPPC082LJBN-RC</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x08_Odd_Even" description="Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60179664</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>MCP23008-E_SO</value>
+      <footprint>Package_SO:SOIC-18W_7.5x11.6mm_P1.27mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/21919e.pdf</datasheet>
+      <fields>
+        <field name="BOM">Microchip MCP23008-E/SO</field>
+        <field name="MFR">-</field>
+        <field name="MPN">MCP23008-E/SO</field>
+        <field name="Manuf">Microchip</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Microchip" part="MCP23008-E_SO" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6017F6A6</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_Coaxial</value>
+      <footprint>Connector_Coaxial:SMA_Amphenol_132134_Vertical</footprint>
+      <datasheet> ~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">KH-SMA-P-8496</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6018A803</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x04_i2c</value>
+      <footprint>Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">JST_SH_BM04B-SRSS-TB</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="0my_intf" part="Conn_01x04_i2c" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601BAE0F</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x04_i2c</value>
+      <footprint>Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">JST_PH_B4B-PH-K</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="0my_intf" part="Conn_01x04_i2c" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601BB27D</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_Coaxial</value>
+      <footprint>Connector_Coaxial:SMA_Amphenol_132134_Vertical</footprint>
+      <datasheet> ~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">KH-SMA-P-8496</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601C40A1</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>Conn_Coaxial</value>
+      <footprint>Connector_Coaxial:SMA_Amphenol_132134_Vertical</footprint>
+      <datasheet> ~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">KH-SMA-P-8496</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601C689A</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>Conn_Coaxial</value>
+      <footprint>Connector_Coaxial:SMA_Amphenol_132134_Vertical</footprint>
+      <datasheet> ~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">KH-SMA-P-8496</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601C68A6</tstamp>
+    </comp>
+    <comp ref="J9">
+      <value>Conn_Coaxial</value>
+      <footprint>Connector_Coaxial:SMA_Amphenol_132134_Vertical</footprint>
+      <datasheet> ~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">KH-SMA-P-8496</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601CB8A6</tstamp>
+    </comp>
+    <comp ref="J10">
+      <value>Conn_Coaxial</value>
+      <footprint>Connector_Coaxial:SMA_Amphenol_132134_Vertical</footprint>
+      <datasheet> ~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">KH-SMA-P-8496</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601CB8B2</tstamp>
+    </comp>
+    <comp ref="J11">
+      <value>Conn_Coaxial</value>
+      <footprint>Connector_Coaxial:SMA_Amphenol_132134_Vertical</footprint>
+      <datasheet> ~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">KH-SMA-P-8496</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601CB8BE</tstamp>
+    </comp>
+    <comp ref="J12">
+      <value>Conn_Coaxial</value>
+      <footprint>Connector_Coaxial:SMA_Amphenol_132134_Vertical</footprint>
+      <datasheet> ~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">KH-SMA-P-8496</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601CB8CA</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x02</value>
+      <footprint>Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">B2B-PH-K-S(LF)(SN)</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601D2B98</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey">490-1767-1-ND </field>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">CC0603KPX7R7BB104</field>
+        <field name="Part">CC0603KRX7R9BB104</field>
+        <field name="SPN">C14663</field>
+        <field name="SPR">LCSC</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601DC587</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>NUD3105LT1G</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">NUD3105LT1G</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/Sheet601B3DC5/" tstamps="/601B3DC6/"/>
+      <tstamp>601BEB05</tstamp>
+    </comp>
+    <comp ref="K1">
+      <value>3570-1331-053</value>
+      <footprint>Relay_THT:Relay_SPST_StandexMeder_SIL_Form1A</footprint>
+      <datasheet>https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_SIL.pdf</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">3570-1331-053</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Relay" part="SILxx-1Axx-71x" description="Standex Meder SIL reed relay, SPST, Closing Contact"/>
+      <sheetpath names="/Sheet601B3DC5/" tstamps="/601B3DC6/"/>
+      <tstamp>601BEB25</tstamp>
+    </comp>
+    <comp ref="FB1">
+      <value>2K@100MHz</value>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">MMZ2012Y202BT000</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="Ferrite_Bead" description="Ferrite bead"/>
+      <sheetpath names="/Sheet601B3DC5/" tstamps="/601B3DC6/"/>
+      <tstamp>601BEB2B</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">GRM21BR60J107ME15L</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Sheet601B3DC5/" tstamps="/601B3DC6/"/>
+      <tstamp>601BEB31</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">GRM21BR60J107ME15L</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Sheet601B3DC5/" tstamps="/601B3DC6/"/>
+      <tstamp>601BEB37</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">0603WAF1002T5E</field>
+        <field name="SPN">C25804</field>
+        <field name="SPR">LCSC</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Sheet601B3DC5/" tstamps="/601B3DC6/"/>
+      <tstamp>601BEB46</tstamp>
+    </comp>
+    <comp ref="IC1">
+      <value>ISO1541DR</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/iso1541</datasheet>
+      <fields>
+        <field name="Description">TEXAS INSTRUMENTS - ISO1541DR - DIGITAL ISOLATOR, 2-CH, 1MBPS, SOIC-8</field>
+        <field name="Height">1.75</field>
+        <field name="MFR">Texas Instruments</field>
+        <field name="MPN">ISO1541DR</field>
+        <field name="SPN">C143028 </field>
+        <field name="SPR">LCSC</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="0my_intf" part="ISO1541DR" description="TEXAS INSTRUMENTS - ISO1541DR - DIGITAL ISOLATOR, 2-CH, 1MBPS, SOIC-8"/>
+      <sheetpath names="/Sheet601B43CA/" tstamps="/601B43CB/"/>
+      <tstamp>601B90B4</tstamp>
+    </comp>
+    <comp ref="J14">
+      <value>B4B-PH-K</value>
+      <footprint>Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">B4B-PH-K-S(LF)(SN)</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Connector_Generic_MountingPin" part="Conn_01x04_MountingPin" description="Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Sheet601B43CA/" tstamps="/601B43CB/"/>
+      <tstamp>601B90BF</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey">490-1767-1-ND </field>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">CC0603KPX7R7BB104</field>
+        <field name="Part">CC0603KRX7R9BB104</field>
+        <field name="SPN">C14663</field>
+        <field name="SPR">LCSC</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Sheet601B43CA/" tstamps="/601B43CB/"/>
+      <tstamp>601B90CC</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Digikey">490-1767-1-ND </field>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">CC0603KPX7R7BB104</field>
+        <field name="Part">CC0603KRX7R9BB104</field>
+        <field name="SPN">C14663</field>
+        <field name="SPR">LCSC</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Sheet601B43CA/" tstamps="/601B43CB/"/>
+      <tstamp>601B90EB</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">0603WAF1002T5E</field>
+        <field name="SPN">C25804</field>
+        <field name="SPR">LCSC</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Sheet601B43CA/" tstamps="/601B43CB/"/>
+      <tstamp>601B9114</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">0603WAF1002T5E</field>
+        <field name="SPN">C25804</field>
+        <field name="SPR">LCSC</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Sheet601B43CA/" tstamps="/601B43CB/"/>
+      <tstamp>601B911F</tstamp>
+    </comp>
+    <comp ref="J13">
+      <value>Conn_01x04_i2c</value>
+      <footprint>Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">JST_SH_BM04B-SRSS-TB</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="0my_intf" part="Conn_01x04_i2c" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Sheet601B43CA/" tstamps="/601B43CB/"/>
+      <tstamp>601B9149</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>NUD3105LT1G</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">NUD3105LT1G</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/sheet601BFE22/" tstamps="/601BFE27/"/>
+      <tstamp>601BEB05</tstamp>
+    </comp>
+    <comp ref="K2">
+      <value>3570-1331-053</value>
+      <footprint>Relay_THT:Relay_SPST_StandexMeder_SIL_Form1A</footprint>
+      <datasheet>https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_SIL.pdf</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">3570-1331-053</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Relay" part="SILxx-1Axx-71x" description="Standex Meder SIL reed relay, SPST, Closing Contact"/>
+      <sheetpath names="/sheet601BFE22/" tstamps="/601BFE27/"/>
+      <tstamp>601BEB25</tstamp>
+    </comp>
+    <comp ref="FB2">
+      <value>2K@100MHz</value>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">MMZ2012Y202BT000</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="Ferrite_Bead" description="Ferrite bead"/>
+      <sheetpath names="/sheet601BFE22/" tstamps="/601BFE27/"/>
+      <tstamp>601BEB2B</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>100uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">GRM21BR60J107ME15L</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/sheet601BFE22/" tstamps="/601BFE27/"/>
+      <tstamp>601BEB31</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">GRM21BR60J107ME15L</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/sheet601BFE22/" tstamps="/601BFE27/"/>
+      <tstamp>601BEB37</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">0603WAF1002T5E</field>
+        <field name="SPN">C25804</field>
+        <field name="SPR">LCSC</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/sheet601BFE22/" tstamps="/601BFE27/"/>
+      <tstamp>601BEB46</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>NUD3105LT1G</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">NUD3105LT1G</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/sheet601C0132/" tstamps="/601C0138/"/>
+      <tstamp>601BEB05</tstamp>
+    </comp>
+    <comp ref="K3">
+      <value>3570-1331-053</value>
+      <footprint>Relay_THT:Relay_SPST_StandexMeder_SIL_Form1A</footprint>
+      <datasheet>https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_SIL.pdf</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">3570-1331-053</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Relay" part="SILxx-1Axx-71x" description="Standex Meder SIL reed relay, SPST, Closing Contact"/>
+      <sheetpath names="/sheet601C0132/" tstamps="/601C0138/"/>
+      <tstamp>601BEB25</tstamp>
+    </comp>
+    <comp ref="FB3">
+      <value>2K@100MHz</value>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">MMZ2012Y202BT000</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="Ferrite_Bead" description="Ferrite bead"/>
+      <sheetpath names="/sheet601C0132/" tstamps="/601C0138/"/>
+      <tstamp>601BEB2B</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>100uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">GRM21BR60J107ME15L</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/sheet601C0132/" tstamps="/601C0138/"/>
+      <tstamp>601BEB31</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>100uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">GRM21BR60J107ME15L</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/sheet601C0132/" tstamps="/601C0138/"/>
+      <tstamp>601BEB37</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">0603WAF1002T5E</field>
+        <field name="SPN">C25804</field>
+        <field name="SPR">LCSC</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/sheet601C0132/" tstamps="/601C0138/"/>
+      <tstamp>601BEB46</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>NUD3105LT1G</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">NUD3105LT1G</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/sheet601C0133/" tstamps="/601C013D/"/>
+      <tstamp>601BEB05</tstamp>
+    </comp>
+    <comp ref="K4">
+      <value>3570-1331-053</value>
+      <footprint>Relay_THT:Relay_SPST_StandexMeder_SIL_Form1A</footprint>
+      <datasheet>https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_SIL.pdf</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">3570-1331-053</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Relay" part="SILxx-1Axx-71x" description="Standex Meder SIL reed relay, SPST, Closing Contact"/>
+      <sheetpath names="/sheet601C0133/" tstamps="/601C013D/"/>
+      <tstamp>601BEB25</tstamp>
+    </comp>
+    <comp ref="FB4">
+      <value>2K@100MHz</value>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">MMZ2012Y202BT000</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="Ferrite_Bead" description="Ferrite bead"/>
+      <sheetpath names="/sheet601C0133/" tstamps="/601C013D/"/>
+      <tstamp>601BEB2B</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>100uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">GRM21BR60J107ME15L</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/sheet601C0133/" tstamps="/601C013D/"/>
+      <tstamp>601BEB31</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>100uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">GRM21BR60J107ME15L</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/sheet601C0133/" tstamps="/601C013D/"/>
+      <tstamp>601BEB37</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">0603WAF1002T5E</field>
+        <field name="SPN">C25804</field>
+        <field name="SPR">LCSC</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/sheet601C0133/" tstamps="/601C013D/"/>
+      <tstamp>601BEB46</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>NUD3105LT1G</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">NUD3105LT1G</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/sheet601C0778/" tstamps="/601C0780/"/>
+      <tstamp>601BEB05</tstamp>
+    </comp>
+    <comp ref="K5">
+      <value>3570-1331-053</value>
+      <footprint>Relay_THT:Relay_SPST_StandexMeder_SIL_Form1A</footprint>
+      <datasheet>https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_SIL.pdf</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">3570-1331-053</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Relay" part="SILxx-1Axx-71x" description="Standex Meder SIL reed relay, SPST, Closing Contact"/>
+      <sheetpath names="/sheet601C0778/" tstamps="/601C0780/"/>
+      <tstamp>601BEB25</tstamp>
+    </comp>
+    <comp ref="FB5">
+      <value>2K@100MHz</value>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">MMZ2012Y202BT000</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="Ferrite_Bead" description="Ferrite bead"/>
+      <sheetpath names="/sheet601C0778/" tstamps="/601C0780/"/>
+      <tstamp>601BEB2B</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>100uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">GRM21BR60J107ME15L</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/sheet601C0778/" tstamps="/601C0780/"/>
+      <tstamp>601BEB31</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>100uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">GRM21BR60J107ME15L</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/sheet601C0778/" tstamps="/601C0780/"/>
+      <tstamp>601BEB37</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">0603WAF1002T5E</field>
+        <field name="SPN">C25804</field>
+        <field name="SPR">LCSC</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/sheet601C0778/" tstamps="/601C0780/"/>
+      <tstamp>601BEB46</tstamp>
+    </comp>
+    <comp ref="Q6">
+      <value>NUD3105LT1G</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">NUD3105LT1G</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/sheet601C0779/" tstamps="/601C0785/"/>
+      <tstamp>601BEB05</tstamp>
+    </comp>
+    <comp ref="K6">
+      <value>3570-1331-053</value>
+      <footprint>Relay_THT:Relay_SPST_StandexMeder_SIL_Form1A</footprint>
+      <datasheet>https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_SIL.pdf</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">3570-1331-053</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Relay" part="SILxx-1Axx-71x" description="Standex Meder SIL reed relay, SPST, Closing Contact"/>
+      <sheetpath names="/sheet601C0779/" tstamps="/601C0785/"/>
+      <tstamp>601BEB25</tstamp>
+    </comp>
+    <comp ref="FB6">
+      <value>2K@100MHz</value>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">MMZ2012Y202BT000</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="Ferrite_Bead" description="Ferrite bead"/>
+      <sheetpath names="/sheet601C0779/" tstamps="/601C0785/"/>
+      <tstamp>601BEB2B</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>100uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">GRM21BR60J107ME15L</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/sheet601C0779/" tstamps="/601C0785/"/>
+      <tstamp>601BEB31</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>100uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">GRM21BR60J107ME15L</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/sheet601C0779/" tstamps="/601C0785/"/>
+      <tstamp>601BEB37</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">0603WAF1002T5E</field>
+        <field name="SPN">C25804</field>
+        <field name="SPR">LCSC</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/sheet601C0779/" tstamps="/601C0785/"/>
+      <tstamp>601BEB46</tstamp>
+    </comp>
+    <comp ref="Q7">
+      <value>NUD3105LT1G</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">NUD3105LT1G</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/sheet601C077A/" tstamps="/601C078A/"/>
+      <tstamp>601BEB05</tstamp>
+    </comp>
+    <comp ref="K7">
+      <value>3570-1331-053</value>
+      <footprint>Relay_THT:Relay_SPST_StandexMeder_SIL_Form1A</footprint>
+      <datasheet>https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_SIL.pdf</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">3570-1331-053</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Relay" part="SILxx-1Axx-71x" description="Standex Meder SIL reed relay, SPST, Closing Contact"/>
+      <sheetpath names="/sheet601C077A/" tstamps="/601C078A/"/>
+      <tstamp>601BEB25</tstamp>
+    </comp>
+    <comp ref="FB7">
+      <value>2K@100MHz</value>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">MMZ2012Y202BT000</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="Ferrite_Bead" description="Ferrite bead"/>
+      <sheetpath names="/sheet601C077A/" tstamps="/601C078A/"/>
+      <tstamp>601BEB2B</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>100uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">GRM21BR60J107ME15L</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/sheet601C077A/" tstamps="/601C078A/"/>
+      <tstamp>601BEB31</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>100uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">GRM21BR60J107ME15L</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/sheet601C077A/" tstamps="/601C078A/"/>
+      <tstamp>601BEB37</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">0603WAF1002T5E</field>
+        <field name="SPN">C25804</field>
+        <field name="SPR">LCSC</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/sheet601C077A/" tstamps="/601C078A/"/>
+      <tstamp>601BEB46</tstamp>
+    </comp>
+    <comp ref="Q8">
+      <value>NUD3105LT1G</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">NUD3105LT1G</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/sheet601C077B/" tstamps="/601C078F/"/>
+      <tstamp>601BEB05</tstamp>
+    </comp>
+    <comp ref="K8">
+      <value>3570-1331-053</value>
+      <footprint>Relay_THT:Relay_SPST_StandexMeder_SIL_Form1A</footprint>
+      <datasheet>https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_SIL.pdf</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">3570-1331-053</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Relay" part="SILxx-1Axx-71x" description="Standex Meder SIL reed relay, SPST, Closing Contact"/>
+      <sheetpath names="/sheet601C077B/" tstamps="/601C078F/"/>
+      <tstamp>601BEB25</tstamp>
+    </comp>
+    <comp ref="FB8">
+      <value>2K@100MHz</value>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">MMZ2012Y202BT000</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="Ferrite_Bead" description="Ferrite bead"/>
+      <sheetpath names="/sheet601C077B/" tstamps="/601C078F/"/>
+      <tstamp>601BEB2B</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>100uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">GRM21BR60J107ME15L</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/sheet601C077B/" tstamps="/601C078F/"/>
+      <tstamp>601BEB31</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>100uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">GRM21BR60J107ME15L</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/sheet601C077B/" tstamps="/601C078F/"/>
+      <tstamp>601BEB37</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">0603WAF1002T5E</field>
+        <field name="SPN">C25804</field>
+        <field name="SPR">LCSC</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/sheet601C077B/" tstamps="/601C078F/"/>
+      <tstamp>601BEB46</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="0my_intf" part="Conn_01x04_i2c">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_i2c</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SCL" type="passive"/>
+        <pin num="2" name="SDA" type="passive"/>
+        <pin num="3" name="VCC" type="passive"/>
+        <pin num="4" name="gnd" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="0my_intf" part="ISO1541DR">
+      <description>TEXAS INSTRUMENTS - ISO1541DR - DIGITAL ISOLATOR, 2-CH, 1MBPS, SOIC-8</description>
+      <docs>http://www.ti.com/lit/gpn/iso1541</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">ISO1541DR</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">http://www.ti.com/lit/gpn/iso1541</field>
+        <field name="Description">TEXAS INSTRUMENTS - ISO1541DR - DIGITAL ISOLATOR, 2-CH, 1MBPS, SOIC-8</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">ISO1541DR</field>
+        <field name="Mouser Part Number">595-ISO1541DR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=595-ISO1541DR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC1" type="power_in"/>
+        <pin num="2" name="SDA1" type="BiDi"/>
+        <pin num="3" name="SCL1" type="BiDi"/>
+        <pin num="4" name="GND1" type="power_in"/>
+        <pin num="5" name="GND2" type="power_in"/>
+        <pin num="6" name="SCL2" type="BiDi"/>
+        <pin num="7" name="SDA2" type="BiDi"/>
+        <pin num="8" name="VCC2" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_Coaxial">
+      <description>coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>*BNC*</fp>
+        <fp>*SMA*</fp>
+        <fp>*SMB*</fp>
+        <fp>*SMC*</fp>
+        <fp>*Cinch*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_Coaxial</field>
+      </fields>
+      <pins>
+        <pin num="1" name="In" type="passive"/>
+        <pin num="2" name="Ext" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x08_Odd_Even">
+      <description>Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x08_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic_MountingPin" part="Conn_01x04_MountingPin">
+      <description>Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??-1MP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_MountingPin</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="MP" name="MountPin" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Ferrite_Bead">
+      <description>Ferrite bead</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+        <fp>*Ferrite*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">Ferrite_Bead</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NMOS_GSD">
+      <description>N-MOSFET transistor, gate/source/drain</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NMOS_GSD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Microchip" part="MCP23008-E_SO">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP23008-E_SO</field>
+        <field name="Footprint">IPC7351-Nominal:SOIC127P1034X267-18</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/21919e.pdf</field>
+        <field name="MPN">MCP23008-E/SO</field>
+        <field name="Manuf">Microchip</field>
+        <field name="BOM">Microchip MCP23008-E/SO</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SCL" type="input"/>
+        <pin num="2" name="SDA" type="BiDi"/>
+        <pin num="3" name="A2" type="input"/>
+        <pin num="4" name="A1" type="input"/>
+        <pin num="5" name="A0" type="input"/>
+        <pin num="6" name="~RESET" type="input"/>
+        <pin num="8" name="INT" type="output"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="GP0" type="BiDi"/>
+        <pin num="11" name="GP1" type="BiDi"/>
+        <pin num="12" name="GP2" type="BiDi"/>
+        <pin num="13" name="GP3" type="BiDi"/>
+        <pin num="14" name="GP4" type="BiDi"/>
+        <pin num="15" name="GP5" type="BiDi"/>
+        <pin num="16" name="GP6" type="BiDi"/>
+        <pin num="17" name="GP7" type="BiDi"/>
+        <pin num="18" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Relay" part="SILxx-1Axx-71x">
+      <description>Standex Meder SIL reed relay, SPST, Closing Contact</description>
+      <docs>https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_SIL.pdf</docs>
+      <footprints>
+        <fp>Relay*SPST*StandexMeder*SIL*Form1A*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">SILxx-1Axx-71x</field>
+        <field name="Footprint">Relay_THT:Relay_SPST_StandexMeder_SIL_Form1A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="7" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="0my_intf">
+      <uri>/Users/nams/Documents/projects/TES/TESelectronics/prototypes/libraries/0my_intf.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/Library/Application Support/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/Library/Application Support/kicad/library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Connector_Generic_MountingPin">
+      <uri>/Library/Application Support/kicad/library/Connector_Generic_MountingPin.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Library/Application Support/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Microchip">
+      <uri>/Users/nams/Documents/projects/TES/TESelectronics/prototypes/libraries/Microchip.lib</uri>
+    </library>
+    <library logical="Relay">
+      <uri>/Library/Application Support/kicad/library/Relay.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/in0">
+      <node ref="K1" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="2" name="/in5">
+      <node ref="K6" pin="1"/>
+      <node ref="R8" pin="1"/>
+      <node ref="J3" pin="11"/>
+    </net>
+    <net code="3" name="/in6">
+      <node ref="J3" pin="13"/>
+      <node ref="K7" pin="1"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="4" name="/in7">
+      <node ref="J3" pin="15"/>
+      <node ref="K8" pin="1"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="5" name="/in1">
+      <node ref="K2" pin="1"/>
+      <node ref="J3" pin="3"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="6" name="/in2">
+      <node ref="K3" pin="1"/>
+      <node ref="J3" pin="5"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="7" name="/in3">
+      <node ref="K4" pin="1"/>
+      <node ref="J3" pin="7"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="8" name="/in4">
+      <node ref="K5" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="J3" pin="9"/>
+    </net>
+    <net code="9" name="GND">
+      <node ref="J8" pin="2"/>
+      <node ref="J9" pin="2"/>
+      <node ref="J10" pin="2"/>
+      <node ref="J11" pin="2"/>
+      <node ref="J12" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="J3" pin="4"/>
+      <node ref="C11" pin="2"/>
+      <node ref="R6" pin="2"/>
+      <node ref="J3" pin="2"/>
+      <node ref="R9" pin="2"/>
+      <node ref="J3" pin="16"/>
+      <node ref="J3" pin="14"/>
+      <node ref="J3" pin="12"/>
+      <node ref="J3" pin="10"/>
+      <node ref="J7" pin="2"/>
+      <node ref="J6" pin="2"/>
+      <node ref="C18" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C19" pin="2"/>
+      <node ref="J3" pin="6"/>
+      <node ref="R10" pin="2"/>
+      <node ref="J5" pin="2"/>
+      <node ref="IC1" pin="5"/>
+      <node ref="C17" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="J3" pin="8"/>
+      <node ref="R8" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C6" pin="2"/>
+    </net>
+    <net code="10" name="Net-(U1-Pad8)">
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="11" name="/s0">
+      <node ref="Q1" pin="1"/>
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="12" name="/s1">
+      <node ref="Q2" pin="1"/>
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="13" name="/s2">
+      <node ref="Q3" pin="1"/>
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="14" name="/s3">
+      <node ref="U1" pin="13"/>
+      <node ref="Q4" pin="1"/>
+    </net>
+    <net code="15" name="/s4">
+      <node ref="U1" pin="14"/>
+      <node ref="Q5" pin="1"/>
+    </net>
+    <net code="16" name="/s5">
+      <node ref="U1" pin="15"/>
+      <node ref="Q6" pin="1"/>
+    </net>
+    <net code="17" name="/s6">
+      <node ref="U1" pin="16"/>
+      <node ref="Q7" pin="1"/>
+    </net>
+    <net code="18" name="/s7">
+      <node ref="U1" pin="17"/>
+      <node ref="Q8" pin="1"/>
+    </net>
+    <net code="19" name="/Sheet601B3DC5/out">
+      <node ref="FB1" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="J5" pin="1"/>
+    </net>
+    <net code="20" name="/sheet601BFE22/out">
+      <node ref="FB2" pin="1"/>
+      <node ref="J6" pin="1"/>
+      <node ref="C7" pin="1"/>
+    </net>
+    <net code="21" name="/sheet601C0132/out">
+      <node ref="J7" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="FB3" pin="1"/>
+    </net>
+    <net code="22" name="/sheet601C0133/out">
+      <node ref="J8" pin="1"/>
+      <node ref="FB4" pin="1"/>
+      <node ref="C11" pin="1"/>
+    </net>
+    <net code="23" name="/sheet601C0778/out">
+      <node ref="J9" pin="1"/>
+      <node ref="FB5" pin="1"/>
+      <node ref="C13" pin="1"/>
+    </net>
+    <net code="24" name="/sheet601C0779/out">
+      <node ref="J10" pin="1"/>
+      <node ref="C15" pin="1"/>
+      <node ref="FB6" pin="1"/>
+    </net>
+    <net code="25" name="/sheet601C077A/out">
+      <node ref="FB7" pin="1"/>
+      <node ref="J11" pin="1"/>
+      <node ref="C17" pin="1"/>
+    </net>
+    <net code="26" name="/sheet601C077B/out">
+      <node ref="FB8" pin="1"/>
+      <node ref="C19" pin="1"/>
+      <node ref="J12" pin="1"/>
+    </net>
+    <net code="27" name="+5V">
+      <node ref="K1" pin="3"/>
+      <node ref="K7" pin="3"/>
+      <node ref="K2" pin="3"/>
+      <node ref="K6" pin="3"/>
+      <node ref="K5" pin="3"/>
+      <node ref="K3" pin="3"/>
+      <node ref="J1" pin="1"/>
+      <node ref="K4" pin="3"/>
+      <node ref="K8" pin="3"/>
+    </net>
+    <net code="28" name="GNDD">
+      <node ref="Q4" pin="2"/>
+      <node ref="J13" pin="4"/>
+      <node ref="J2" pin="4"/>
+      <node ref="J14" pin="4"/>
+      <node ref="Q6" pin="2"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="J4" pin="4"/>
+      <node ref="C4" pin="2"/>
+      <node ref="Q8" pin="2"/>
+      <node ref="Q7" pin="2"/>
+      <node ref="U1" pin="9"/>
+      <node ref="J1" pin="2"/>
+      <node ref="U1" pin="6"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="Q5" pin="2"/>
+      <node ref="U1" pin="5"/>
+      <node ref="IC1" pin="4"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="U1" pin="3"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="29" name="VCC">
+      <node ref="U1" pin="18"/>
+      <node ref="J4" pin="3"/>
+      <node ref="J2" pin="3"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="30" name="/scl">
+      <node ref="U1" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="J4" pin="1"/>
+    </net>
+    <net code="31" name="/sda">
+      <node ref="U1" pin="2"/>
+      <node ref="J2" pin="2"/>
+      <node ref="J4" pin="2"/>
+    </net>
+    <net code="32" name="Net-(K1-Pad5)">
+      <node ref="K1" pin="5"/>
+      <node ref="Q1" pin="3"/>
+    </net>
+    <net code="33" name="Net-(C2-Pad1)">
+      <node ref="K1" pin="7"/>
+      <node ref="C2" pin="1"/>
+      <node ref="FB1" pin="2"/>
+    </net>
+    <net code="34" name="Net-(IC1-Pad3)">
+      <node ref="IC1" pin="3"/>
+      <node ref="J14" pin="1"/>
+      <node ref="J13" pin="1"/>
+    </net>
+    <net code="35" name="Net-(J14-PadMP)">
+      <node ref="J14" pin="MP"/>
+    </net>
+    <net code="36" name="/Sheet601B43CA/sda">
+      <node ref="R2" pin="2"/>
+      <node ref="IC1" pin="7"/>
+    </net>
+    <net code="37" name="/Sheet601B43CA/Vpower">
+      <node ref="C5" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="IC1" pin="8"/>
+    </net>
+    <net code="38" name="/Sheet601B43CA/scl">
+      <node ref="IC1" pin="6"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="39" name="Net-(IC1-Pad2)">
+      <node ref="IC1" pin="2"/>
+      <node ref="J13" pin="2"/>
+      <node ref="J14" pin="2"/>
+    </net>
+    <net code="40" name="/Sheet601B43CA/Vin">
+      <node ref="C4" pin="1"/>
+      <node ref="J13" pin="3"/>
+      <node ref="J14" pin="3"/>
+      <node ref="IC1" pin="1"/>
+    </net>
+    <net code="42" name="Net-(K2-Pad5)">
+      <node ref="K2" pin="5"/>
+      <node ref="Q2" pin="3"/>
+    </net>
+    <net code="43" name="Net-(C6-Pad1)">
+      <node ref="C6" pin="1"/>
+      <node ref="FB2" pin="2"/>
+      <node ref="K2" pin="7"/>
+    </net>
+    <net code="44" name="Net-(K3-Pad5)">
+      <node ref="K3" pin="5"/>
+      <node ref="Q3" pin="3"/>
+    </net>
+    <net code="45" name="Net-(C8-Pad1)">
+      <node ref="C8" pin="1"/>
+      <node ref="K3" pin="7"/>
+      <node ref="FB3" pin="2"/>
+    </net>
+    <net code="46" name="Net-(K4-Pad5)">
+      <node ref="K4" pin="5"/>
+      <node ref="Q4" pin="3"/>
+    </net>
+    <net code="47" name="Net-(C10-Pad1)">
+      <node ref="C10" pin="1"/>
+      <node ref="FB4" pin="2"/>
+      <node ref="K4" pin="7"/>
+    </net>
+    <net code="48" name="Net-(K5-Pad5)">
+      <node ref="K5" pin="5"/>
+      <node ref="Q5" pin="3"/>
+    </net>
+    <net code="49" name="Net-(C12-Pad1)">
+      <node ref="K5" pin="7"/>
+      <node ref="FB5" pin="2"/>
+      <node ref="C12" pin="1"/>
+    </net>
+    <net code="50" name="Net-(K6-Pad5)">
+      <node ref="Q6" pin="3"/>
+      <node ref="K6" pin="5"/>
+    </net>
+    <net code="51" name="Net-(C14-Pad1)">
+      <node ref="K6" pin="7"/>
+      <node ref="FB6" pin="2"/>
+      <node ref="C14" pin="1"/>
+    </net>
+    <net code="52" name="Net-(K7-Pad5)">
+      <node ref="Q7" pin="3"/>
+      <node ref="K7" pin="5"/>
+    </net>
+    <net code="53" name="Net-(C16-Pad1)">
+      <node ref="C16" pin="1"/>
+      <node ref="K7" pin="7"/>
+      <node ref="FB7" pin="2"/>
+    </net>
+    <net code="54" name="Net-(K8-Pad5)">
+      <node ref="K8" pin="5"/>
+      <node ref="Q8" pin="3"/>
+    </net>
+    <net code="55" name="Net-(C18-Pad1)">
+      <node ref="FB8" pin="2"/>
+      <node ref="C18" pin="1"/>
+      <node ref="K8" pin="7"/>
+    </net>
+  </nets>
+</export>

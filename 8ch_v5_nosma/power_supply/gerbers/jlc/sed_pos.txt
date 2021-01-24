@@ -1,0 +1,5 @@
+1s/PosX/Mid X/g
+1s/PosY/Mid Y/g
+1s/Ref/Designator/g
+1s/Rot/Rotation/g
+1s/Side/Layer/g

@@ -1,0 +1,1405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/nams/Documents/projects/supercables_electronics/8ch_v5_nosma/power_supply/power_cui.sch</source>
+    <date>Sunday, January 24, 2021 at 12:07:03 PM</date>
+    <tool>Eeschema (5.1.5-0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>power_cui.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC ALT">CL31A106KBHNNNE</field>
+        <field name="LCSC">C29823</field>
+        <field name="MPN">CL32B475KBUYNNE</field>
+        <field name="SPN">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDAC3DC</tstamp>
+    </comp>
+    <comp ref="FL2">
+      <value>ACM9070-701-2PL-TL01</value>
+      <footprint>0my_footprints:ACM90707012PLTL01</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="ALT MPN">SRF0905-471Y</field>
+        <field name="LCSC">C14594</field>
+        <field name="MPN">ACM9070-701-2PL-TL01</field>
+        <field name="SPN">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="EMI_Filter_LL_1423" description="EMI 2-inductor filter, pin-connections 1-4 and 2-3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDB3393</tstamp>
+    </comp>
+    <comp ref="FL4">
+      <value>Bnx029-01</value>
+      <footprint>0my_footprints:BNX025H01B</footprint>
+      <datasheet>http://www.murata.com/en-us/api/pdfdownloadapi?cate=&amp;amp;partno=BNX029-01#</datasheet>
+      <fields>
+        <field name="Description">SMD Block Type EMIFIL, EMI Filter Circuits 6.3V 15A 12.1x9.1mm 15KHz-1GHz:35dB min</field>
+        <field name="LCSC">C124739</field>
+        <field name="MPN">Bnx029-01L</field>
+        <field name="Manufacturer_Name">Murata Electronics</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+        <field name="Supplier_Name">RS</field>
+      </fields>
+      <libsource lib="0my_power" part="Bnx029-01" description="SMD Block Type EMIFIL, EMI Filter Circuits 6.3V 15A 12.1x9.1mm 15KHz-1GHz:35dB min"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDB461E</tstamp>
+    </comp>
+    <comp ref="FL5">
+      <value>Bnx029-01</value>
+      <footprint>0my_footprints:BNX025H01B</footprint>
+      <datasheet>http://www.murata.com/en-us/api/pdfdownloadapi?cate=&amp;amp;partno=BNX029-01#</datasheet>
+      <fields>
+        <field name="Description">SMD Block Type EMIFIL, EMI Filter Circuits 6.3V 15A 12.1x9.1mm 15KHz-1GHz:35dB min</field>
+        <field name="LCSC">C124739</field>
+        <field name="MPN">Bnx029-01L</field>
+        <field name="Manufacturer_Name">Murata Electronics</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+        <field name="Supplier_Name">RS</field>
+      </fields>
+      <libsource lib="0my_power" part="Bnx029-01" description="SMD Block Type EMIFIL, EMI Filter Circuits 6.3V 15A 12.1x9.1mm 15KHz-1GHz:35dB min"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDBF430</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C13585</field>
+        <field name="MFR">-</field>
+        <field name="MPN">EMK325B7106KN-T</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDC34A2</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C13585</field>
+        <field name="MFR">-</field>
+        <field name="MPN">EMK325B7106KN-T</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDC3B93</tstamp>
+    </comp>
+    <comp ref="JP2">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">-</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDD289E</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">-</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDD31A6</tstamp>
+    </comp>
+    <comp ref="JP4">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">-</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDD4414</tstamp>
+    </comp>
+    <comp ref="JP3">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">-</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDD47FA</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>PDQE10-Q24-D5-D</value>
+      <footprint>0my_footprints:CONV_PDQE10-Q24-D5-D</footprint>
+      <fields>
+        <field name="MANUFACTURER">CUI Inc</field>
+        <field name="MFR">-</field>
+        <field name="MPN">PDQE10-Q24-D5-D</field>
+        <field name="PARTREV">1.0</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="0my_power" part="PDQE10-Q24-D5-D" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600A7DA2</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>330uF 35V</value>
+      <footprint>Capacitor_SMD:C_Elec_10x10.2</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C134522</field>
+        <field name="MFR">-</field>
+        <field name="MPN">VE-331M1VTR-1010S</field>
+        <field name="MPN2">UUX1A331MNL1GS</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600C2266</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>JK-NSMD050-13.2V</value>
+      <footprint>Fuse:Fuse_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C369159</field>
+        <field name="MFR">-</field>
+        <field name="MPN">JK-NSMD050-13.2V</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600CAE5B</tstamp>
+    </comp>
+    <comp ref="RV1">
+      <value>S20K30</value>
+      <footprint>Varistor:RV_Disc_D21.5mm_W4.9mm_P10mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">S20K30</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="Varistor" description="Voltage dependent resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600CCC26</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>4.7uH</value>
+      <footprint>Inductor_SMD:L_1008_2520Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C520141</field>
+        <field name="MFR">-</field>
+        <field name="MPN">SDET25201T-4R7MS</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600CEBED</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>BAT60A</value>
+      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <datasheet>https://www.infineon.com/dgdl/Infineon-BAT60ASERIES-DS-v01_01-en.pdf?fileId=db3a304313d846880113def70c9304a9</datasheet>
+      <fields>
+        <field name="LCSC">C117485</field>
+        <field name="MFR">-</field>
+        <field name="MPN">BAT60AE6327</field>
+        <field name="SPN">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Diode" part="BAT60A" description="10V 3A High Current Recitifier Schottky Diode, SOD-323"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601F8344</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>CP</value>
+      <footprint>0my_footprints:C_Radial_D21.5mm_H8mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">DB-5R5D155T</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601F92AF</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>CP</value>
+      <footprint>0my_footprints:C_Radial_D21.5mm_H8mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">DB-5R5D155T</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601F9616</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>BAT60A</value>
+      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <datasheet>https://www.infineon.com/dgdl/Infineon-BAT60ASERIES-DS-v01_01-en.pdf?fileId=db3a304313d846880113def70c9304a9</datasheet>
+      <fields>
+        <field name="LCSC">C117485</field>
+        <field name="MFR">-</field>
+        <field name="MPN">BAT60AE6327</field>
+        <field name="SPN">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Diode" part="BAT60A" description="10V 3A High Current Recitifier Schottky Diode, SOD-323"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60209EF5</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>NUD3105LT1G</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14894</field>
+        <field name="MFR">-</field>
+        <field name="MPN">NUD3105LT1G</field>
+        <field name="SPN">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6021FBE6</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C21190</field>
+        <field name="MFR">-</field>
+        <field name="MPN">0603WAF1001T5E</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60221B81</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>NUD3105LT1G</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14894</field>
+        <field name="MFR">-</field>
+        <field name="MPN">NUD3105LT1G</field>
+        <field name="SPN">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6022A3C6</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>BAT60A</value>
+      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <datasheet>https://www.infineon.com/dgdl/Infineon-BAT60ASERIES-DS-v01_01-en.pdf?fileId=db3a304313d846880113def70c9304a9</datasheet>
+      <fields>
+        <field name="LCSC">C117485</field>
+        <field name="MFR">-</field>
+        <field name="MPN">BAT60AE6327</field>
+        <field name="SPN">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Diode" part="BAT60A" description="10V 3A High Current Recitifier Schottky Diode, SOD-323"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602409EC</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>BAT60A</value>
+      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <datasheet>https://www.infineon.com/dgdl/Infineon-BAT60ASERIES-DS-v01_01-en.pdf?fileId=db3a304313d846880113def70c9304a9</datasheet>
+      <fields>
+        <field name="LCSC">C117485</field>
+        <field name="MFR">-</field>
+        <field name="MPN">BAT60AE6327</field>
+        <field name="SPN">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Diode" part="BAT60A" description="10V 3A High Current Recitifier Schottky Diode, SOD-323"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602417BB</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x02</value>
+      <footprint>Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">B2B-PH-K-S(LF)(SN)</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60271F61</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x02</value>
+      <footprint>Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">B2B-PH-K-S(LF)(SN)</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602733DC</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x02</value>
+      <footprint>Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">B2B-PH-K-S(LF)(SN)</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60273E26</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x02</value>
+      <footprint>Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">B2B-PH-K-S(LF)(SN)</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60274359</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_01x02</value>
+      <footprint>Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">B2B-PH-K-S(LF)(SN)</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6028A890</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100uF</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C49066</field>
+        <field name="MFR">-</field>
+        <field name="MPN">CL32A107MQVNNNE</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602921C0</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Barrel_Jack_Switch</value>
+      <footprint>0my_footprints:CUI_PJ-066A</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">PJ-066A</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Connector" part="Barrel_Jack_Switch" description="DC Barrel Jack with an internal switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602E22D7</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>AQY212GSZ</value>
+      <footprint>Package_SO:SO-4_4.4x4.3mm_P2.54mm</footprint>
+      <datasheet>https://docs.broadcom.com/docs/AV02-0173EN</datasheet>
+      <fields>
+        <field name="LCSC">C129283</field>
+        <field name="MPN">AQY212GSZ</field>
+      </fields>
+      <libsource lib="Relay_SolidState" part="ASSR-1218" description="Form A, Solid State Relay (Photo MOSFET) 60V, 0.2A, 10Ohm, SO-4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6038757D</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>750</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23241</field>
+        <field name="MPN">0603WAF7500T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>603A7BCC</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>AQY212GSZ</value>
+      <footprint>Package_SO:SO-4_4.4x4.3mm_P2.54mm</footprint>
+      <datasheet>https://docs.broadcom.com/docs/AV02-0173EN</datasheet>
+      <fields>
+        <field name="LCSC">C129283</field>
+        <field name="MPN">AQY212GSZ</field>
+      </fields>
+      <libsource lib="Relay_SolidState" part="ASSR-1218" description="Form A, Solid State Relay (Photo MOSFET) 60V, 0.2A, 10Ohm, SO-4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>603B0810</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>750</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C23241</field>
+        <field name="MPN">0603WAF7500T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>603B3D79</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>BSS84</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://assets.nexperia.com/documents/data-sheet/BSS84.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C8492</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="BSS84" description="-0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>603D647D</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C21190</field>
+        <field name="MFR">-</field>
+        <field name="MPN">0603WAF1001T5E</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>603DF6FC</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>BAT60A</value>
+      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <datasheet>https://www.infineon.com/dgdl/Infineon-BAT60ASERIES-DS-v01_01-en.pdf?fileId=db3a304313d846880113def70c9304a9</datasheet>
+      <fields>
+        <field name="LCSC">C117485</field>
+        <field name="MFR">-</field>
+        <field name="MPN">BAT60AE6327</field>
+        <field name="SPN">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Diode" part="BAT60A" description="10V 3A High Current Recitifier Schottky Diode, SOD-323"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>603E0904</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25804</field>
+        <field name="MFR">-</field>
+        <field name="MPN">0603WAF1002T5E</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>603E86F3</tstamp>
+    </comp>
+    <comp ref="FL1">
+      <value>ACM9070-701-2PL-TL01</value>
+      <footprint>0my_footprints:ACM90707012PLTL01</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="ALT MPN">SRF0905-471Y</field>
+        <field name="LCSC">C14594</field>
+        <field name="MPN">ACM9070-701-2PL-TL01</field>
+        <field name="SPN">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="EMI_Filter_LL_1423" description="EMI 2-inductor filter, pin-connections 1-4 and 2-3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60410E96</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>CRE1S1205SC</value>
+      <footprint>Converter_DCDC:Converter_DCDC_muRata_CRE1xxxxxxSC_THT</footprint>
+      <datasheet>http://power.murata.com/datasheet?/data/power/ncl/kdc_cre1.pdf</datasheet>
+      <libsource lib="Regulator_Switching" part="CRE1S1205SC" description="12V to 5V 200mA DC-DC Converter with 1kV isolation, SIP-4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6003B8D2</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C13585</field>
+        <field name="MFR">-</field>
+        <field name="MPN">EMK325B7106KN-T</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6003FAEA</tstamp>
+    </comp>
+    <comp ref="L2">
+      <value>22uH</value>
+      <footprint>0my_footprints:L_SLO0630</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C207843</field>
+      </fields>
+      <libsource lib="Device" part="L_Core_Ferrite" description="Inductor with ferrite core"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60041E13</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>390pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C84719</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6004497C</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>390pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C84719</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6004536A</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>Conn_01x02</value>
+      <footprint>Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">B2B-PH-K-S(LF)(SN)</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6006E30F</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>ZVN4525G</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
+      <datasheet>https://www.infineon.com/dgdl/Infineon-BSP89-DS-v02_02-en.pdf?fileId=db3a30433b47825b013b4b8a07f90d55</datasheet>
+      <fields>
+        <field name="LCSC">C154905</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="BSP89" description="0.35A Id, 240V Vds, N-Channel Enhancement Mode MOSFET, SOT-223"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600DB5C7</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>ZXP2106G</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ZXMP4A16G.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C460270</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="ZXMP4A16G" description="-6.4A Id, -40V Vds, P-Channel MOSFET, SOT-223"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600E38BA</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>BAT60A</value>
+      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <datasheet>https://www.infineon.com/dgdl/Infineon-BAT60ASERIES-DS-v01_01-en.pdf?fileId=db3a304313d846880113def70c9304a9</datasheet>
+      <fields>
+        <field name="LCSC">C117485</field>
+        <field name="MFR">-</field>
+        <field name="MPN">BAT60AE6327</field>
+        <field name="SPN">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Diode" part="BAT60A" description="10V 3A High Current Recitifier Schottky Diode, SOD-323"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600F4A8D</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>BAT60A</value>
+      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <datasheet>https://www.infineon.com/dgdl/Infineon-BAT60ASERIES-DS-v01_01-en.pdf?fileId=db3a304313d846880113def70c9304a9</datasheet>
+      <fields>
+        <field name="LCSC">C117485</field>
+        <field name="MFR">-</field>
+        <field name="MPN">BAT60AE6327</field>
+        <field name="SPN">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Diode" part="BAT60A" description="10V 3A High Current Recitifier Schottky Diode, SOD-323"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6011A5A9</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25804</field>
+        <field name="MFR">-</field>
+        <field name="MPN">0603WAF1002T5E</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6012791A</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25804</field>
+        <field name="MFR">-</field>
+        <field name="MPN">0603WAF1002T5E</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60128F91</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="0my_power" part="Bnx029-01">
+      <description>SMD Block Type EMIFIL, EMI Filter Circuits 6.3V 15A 12.1x9.1mm 15KHz-1GHz:35dB min</description>
+      <docs>http://www.murata.com/en-us/api/pdfdownloadapi?cate=&amp;amp;partno=BNX029-01#</docs>
+      <fields>
+        <field name="Reference">FL</field>
+        <field name="Value">Bnx029-01</field>
+        <field name="Footprint">BNX025H01B</field>
+        <field name="Datasheet">http://www.murata.com/en-us/api/pdfdownloadapi?cate=&amp;amp;partno=BNX029-01#</field>
+        <field name="Description">SMD Block Type EMIFIL, EMI Filter Circuits 6.3V 15A 12.1x9.1mm 15KHz-1GHz:35dB min</field>
+        <field name="Supplier_Name">RS</field>
+        <field name="Manufacturer_Name">Murata Electronics</field>
+        <field name="Manufacturer_Part_Number">Bnx029-01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="BIAS" type="input"/>
+        <pin num="2" name="CB" type="power_out"/>
+        <pin num="3" name="PSG" type="power_in"/>
+        <pin num="4" name="CG(1)" type="passive"/>
+        <pin num="5" name="CG(2)" type="passive"/>
+        <pin num="6" name="CG(3)" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="0my_power" part="PDQE10-Q24-D5-D">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PDQE10-Q24-D5-D</field>
+        <field name="Footprint">CONV_PDQE10-Q24-D5-D</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="PARTREV">1.0</field>
+        <field name="MANUFACTURER">CUI Inc</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VIN" type="input"/>
+        <pin num="3" name="+VOUT" type="output"/>
+        <pin num="4" name="0V" type="output"/>
+        <pin num="5" name="-VOUT" type="output"/>
+        <pin num="6" name="CTRL" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Barrel_Jack_Switch">
+      <description>DC Barrel Jack with an internal switch</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>BarrelJack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Barrel_Jack_Switch</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP1">
+      <description>Polarized capacitor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="EMI_Filter_LL_1423">
+      <description>EMI 2-inductor filter, pin-connections 1-4 and 2-3</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Bourns*SRF0905*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FL</field>
+        <field name="Value">EMI_Filter_LL_1423</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L_Core_Ferrite">
+      <description>Inductor with ferrite core</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_Core_Ferrite</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Polyfuse">
+      <description>Resettable fuse, polymeric positive temperature coefficient</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*polyfuse*</fp>
+        <fp>*PTC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Polyfuse</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NMOS_GSD">
+      <description>N-MOSFET transistor, gate/source/drain</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NMOS_GSD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Varistor">
+      <description>Voltage dependent resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>RV_*</fp>
+        <fp>Varistor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">Varistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="BAT48JFILM">
+      <aliases>
+        <alias>PMEG6010CEJ</alias>
+        <alias>NSR0340HT1G</alias>
+        <alias>BAT60A</alias>
+      </aliases>
+      <description>40V 0.35A Small Signal Schottky Diode, SOD-323</description>
+      <docs>www.st.com/resource/en/datasheet/bat48.pdf</docs>
+      <footprints>
+        <fp>D*SOD?323*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">BAT48JFILM</field>
+        <field name="Footprint">Diode_SMD:D_SOD-323</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_2_Open">
+      <description>Solder Jumper, 2-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Open*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_2_Open</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Switching" part="CRE1S0505SC">
+      <aliases>
+        <alias>CRE1S0515SC</alias>
+        <alias>CRE1S1205SC</alias>
+        <alias>CRE1S1212SC</alias>
+        <alias>CRE1S2405SC</alias>
+        <alias>CRE1S2412SC</alias>
+      </aliases>
+      <description>5V to 5V 200mA DC-DC Converter with 1kV isolation, SIP-4</description>
+      <docs>http://power.murata.com/datasheet?/data/power/ncl/kdc_cre1.pdf</docs>
+      <footprints>
+        <fp>Converter*DCDC*muRata*CRE1xxxxxxSC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CRE1S0505SC</field>
+        <field name="Footprint">Converter_DCDC:Converter_DCDC_muRata_CRE1xxxxxxSC_THT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="-VIN" type="power_in"/>
+        <pin num="2" name="+VIN" type="power_in"/>
+        <pin num="3" name="-VOUT" type="power_out"/>
+        <pin num="4" name="+VOUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Relay_SolidState" part="ASSR-1218">
+      <description>Form A, Solid State Relay (Photo MOSFET) 60V, 0.2A, 10Ohm, SO-4</description>
+      <docs>https://docs.broadcom.com/docs/AV02-0173EN</docs>
+      <footprints>
+        <fp>SO*4.4x4.3mm*P2.54mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ASSR-1218</field>
+        <field name="Footprint">Package_SO:SO-4_4.4x4.3mm_P2.54mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="BSP89">
+      <description>0.35A Id, 240V Vds, N-Channel Enhancement Mode MOSFET, SOT-223</description>
+      <docs>https://www.infineon.com/dgdl/Infineon-BSP89-DS-v02_02-en.pdf?fileId=db3a30433b47825b013b4b8a07f90d55</docs>
+      <footprints>
+        <fp>SOT?223*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BSP89</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-223-3_TabPin2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="TP0610T">
+      <aliases>
+        <alias>VP0610T</alias>
+        <alias>BSS84</alias>
+        <alias>NTR2101P</alias>
+        <alias>BSS83P</alias>
+        <alias>Si2319CDS</alias>
+        <alias>IRLML6402</alias>
+        <alias>DMG2301L</alias>
+        <alias>AO3401A</alias>
+        <alias>IRLML9301</alias>
+        <alias>IRLML5203</alias>
+        <alias>Si2371EDS</alias>
+      </aliases>
+      <description>-0.18A Id, -60V Vds, P-Channel MOSFET, SOT-23</description>
+      <docs>http://www.vishay.com/docs/70209/70209.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">TP0610T</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="ZXMP4A16G">
+      <description>-6.4A Id, -40V Vds, P-Channel MOSFET, SOT-223</description>
+      <docs>https://www.diodes.com/assets/Datasheets/ZXMP4A16G.pdf</docs>
+      <footprints>
+        <fp>SOT?223*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">ZXMP4A16G</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-223-3_TabPin2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="0my_power">
+      <uri>/Users/nams/Documents/projects/TES/TESelectronics/prototypes/libraries/0my_power.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/Library/Application Support/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/Library/Application Support/kicad/library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Library/Application Support/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Diode">
+      <uri>/Library/Application Support/kicad/library/Diode.lib</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>/Library/Application Support/kicad/library/Jumper.lib</uri>
+    </library>
+    <library logical="Regulator_Switching">
+      <uri>/Library/Application Support/kicad/library/Regulator_Switching.lib</uri>
+    </library>
+    <library logical="Relay_SolidState">
+      <uri>/Library/Application Support/kicad/library/Relay_SolidState.lib</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>/Library/Application Support/kicad/library/Transistor_FET.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/-5V">
+      <node ref="R3" pin="2"/>
+      <node ref="D4" pin="1"/>
+      <node ref="Q4" pin="3"/>
+      <node ref="FL5" pin="2"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="FL4" pin="4"/>
+      <node ref="FL4" pin="5"/>
+      <node ref="FL4" pin="6"/>
+      <node ref="C7" pin="1"/>
+      <node ref="FL5" pin="4"/>
+      <node ref="FL5" pin="5"/>
+      <node ref="FL5" pin="6"/>
+      <node ref="Q5" pin="1"/>
+      <node ref="J6" pin="2"/>
+      <node ref="R7" pin="1"/>
+      <node ref="R6" pin="2"/>
+      <node ref="J5" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C6" pin="1"/>
+      <node ref="J4" pin="1"/>
+      <node ref="J3" pin="2"/>
+      <node ref="J2" pin="2"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="R1" pin="1"/>
+      <node ref="Q2" pin="2"/>
+    </net>
+    <net code="3" name="Net-(FL2-Pad4)">
+      <node ref="JP2" pin="2"/>
+      <node ref="FL2" pin="4"/>
+      <node ref="FL5" pin="3"/>
+    </net>
+    <net code="4" name="Net-(FL2-Pad3)">
+      <node ref="FL2" pin="3"/>
+      <node ref="JP1" pin="2"/>
+      <node ref="FL5" pin="1"/>
+    </net>
+    <net code="5" name="Net-(FL1-Pad3)">
+      <node ref="JP3" pin="2"/>
+      <node ref="FL1" pin="3"/>
+      <node ref="FL4" pin="1"/>
+    </net>
+    <net code="6" name="Net-(C2-Pad2)">
+      <node ref="U1" pin="4"/>
+      <node ref="FL2" pin="1"/>
+      <node ref="JP4" pin="1"/>
+      <node ref="JP2" pin="1"/>
+      <node ref="FL1" pin="1"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="7" name="Net-(C3-Pad2)">
+      <node ref="C3" pin="2"/>
+      <node ref="JP1" pin="1"/>
+      <node ref="U1" pin="5"/>
+      <node ref="FL2" pin="2"/>
+    </net>
+    <net code="8" name="Net-(U1-Pad6)">
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="9" name="Net-(C8-Pad1)">
+      <node ref="C8" pin="1"/>
+      <node ref="L2" pin="2"/>
+      <node ref="F1" pin="2"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="10" name="Net-(C1-Pad1)">
+      <node ref="F1" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="L1" pin="2"/>
+      <node ref="RV1" pin="1"/>
+    </net>
+    <net code="11" name="Net-(D5-Pad1)">
+      <node ref="D5" pin="1"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="12" name="Net-(J1-Pad3)">
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="13" name="/12Vin">
+      <node ref="L1" pin="1"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="14" name="/5V">
+      <node ref="Q5" pin="3"/>
+      <node ref="FL4" pin="2"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="J2" pin="1"/>
+      <node ref="D3" pin="2"/>
+    </net>
+    <net code="15" name="Net-(C1-Pad2)">
+      <node ref="C1" pin="2"/>
+      <node ref="U4" pin="1"/>
+      <node ref="U1" pin="1"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="RV1" pin="2"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="16" name="Net-(FL1-Pad4)">
+      <node ref="FL1" pin="4"/>
+      <node ref="JP4" pin="2"/>
+      <node ref="FL4" pin="3"/>
+    </net>
+    <net code="17" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1"/>
+      <node ref="FL1" pin="2"/>
+      <node ref="JP3" pin="1"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="18" name="Net-(R4-Pad2)">
+      <node ref="U2" pin="1"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="19" name="Net-(Q2-Pad3)">
+      <node ref="Q2" pin="3"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="20" name="/-Vin">
+      <node ref="D2" pin="2"/>
+      <node ref="D4" pin="2"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="21" name="/-Vout">
+      <node ref="J4" pin="2"/>
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="22" name="Net-(R5-Pad2)">
+      <node ref="R5" pin="2"/>
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="23" name="Net-(Q1-Pad3)">
+      <node ref="U3" pin="2"/>
+      <node ref="Q1" pin="3"/>
+    </net>
+    <net code="24" name="/Vout">
+      <node ref="U3" pin="3"/>
+      <node ref="J3" pin="1"/>
+      <node ref="J5" pin="1"/>
+    </net>
+    <net code="25" name="/Vin">
+      <node ref="D3" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="U3" pin="4"/>
+      <node ref="R4" pin="1"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="26" name="Net-(Q3-Pad1)">
+      <node ref="R6" pin="1"/>
+      <node ref="Q3" pin="1"/>
+    </net>
+    <net code="27" name="Net-(D5-Pad2)">
+      <node ref="D5" pin="2"/>
+      <node ref="Q3" pin="3"/>
+    </net>
+    <net code="28" name="Net-(C7-Pad2)">
+      <node ref="J6" pin="1"/>
+      <node ref="Q2" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="C7" pin="2"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="29" name="Net-(C10-Pad1)">
+      <node ref="C10" pin="1"/>
+      <node ref="U4" pin="3"/>
+      <node ref="J7" pin="2"/>
+    </net>
+    <net code="30" name="Net-(C9-Pad1)">
+      <node ref="J7" pin="1"/>
+      <node ref="U4" pin="4"/>
+      <node ref="C9" pin="1"/>
+    </net>
+    <net code="31" name="Net-(C9-Pad2)">
+      <node ref="U4" pin="2"/>
+      <node ref="L2" pin="1"/>
+      <node ref="C9" pin="2"/>
+    </net>
+    <net code="32" name="Net-(D6-Pad2)">
+      <node ref="Q5" pin="2"/>
+      <node ref="D6" pin="2"/>
+    </net>
+    <net code="33" name="Net-(C5-Pad1)">
+      <node ref="C5" pin="1"/>
+      <node ref="D1" pin="2"/>
+      <node ref="D6" pin="1"/>
+    </net>
+    <net code="34" name="Net-(D7-Pad1)">
+      <node ref="D7" pin="1"/>
+      <node ref="Q4" pin="2"/>
+    </net>
+    <net code="35" name="Net-(C6-Pad2)">
+      <node ref="C6" pin="2"/>
+      <node ref="D7" pin="2"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="36" name="Net-(Q4-Pad1)">
+      <node ref="R1" pin="2"/>
+      <node ref="R3" pin="1"/>
+      <node ref="Q4" pin="1"/>
+    </net>
+  </nets>
+</export>

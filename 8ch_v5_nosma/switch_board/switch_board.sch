@@ -1,0 +1,720 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 10
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 4650 2350 850 350
+U 601B3DC6
+F0 "Sheet601B3DC5" 50
+F1 "relay.sch" 50
+F2 "switch" I L 4650 2450 50
+F3 "in" I L 4650 2600 50
+F4 "out" O R 5500 2600 50
+$EndSheet
+$Sheet
+S 7600 1200 1150 450
+U 601B43CB
+F0 "Sheet601B43CA" 50
+F1 "i2c.sch" 50
+$EndSheet
+$Sheet
+S 4650 2900 850 350
+U 601BFE27
+F0 "sheet601BFE22" 50
+F1 "relay.sch" 50
+F2 "switch" I L 4650 3000 50
+F3 "in" I L 4650 3150 50
+F4 "out" O R 5500 3150 50
+$EndSheet
+$Sheet
+S 4650 3450 850 350
+U 601C0138
+F0 "sheet601C0132" 50
+F1 "relay.sch" 50
+F2 "switch" I L 4650 3550 50
+F3 "in" I L 4650 3700 50
+F4 "out" O R 5500 3700 50
+$EndSheet
+$Sheet
+S 4650 4000 850 350
+U 601C013D
+F0 "sheet601C0133" 50
+F1 "relay.sch" 50
+F2 "switch" I L 4650 4100 50
+F3 "in" I L 4650 4250 50
+F4 "out" O R 5500 4250 50
+$EndSheet
+$Sheet
+S 4650 4550 850 350
+U 601C0780
+F0 "sheet601C0778" 50
+F1 "relay.sch" 50
+F2 "switch" I L 4650 4650 50
+F3 "in" I L 4650 4800 50
+F4 "out" O R 5500 4800 50
+$EndSheet
+$Sheet
+S 4650 5100 850 350
+U 601C0785
+F0 "sheet601C0779" 50
+F1 "relay.sch" 50
+F2 "switch" I L 4650 5200 50
+F3 "in" I L 4650 5350 50
+F4 "out" O R 5500 5350 50
+$EndSheet
+$Sheet
+S 4650 5650 850 350
+U 601C078A
+F0 "sheet601C077A" 50
+F1 "relay.sch" 50
+F2 "switch" I L 4650 5750 50
+F3 "in" I L 4650 5900 50
+F4 "out" O R 5500 5900 50
+$EndSheet
+$Sheet
+S 4650 6200 850 350
+U 601C078F
+F0 "sheet601C077B" 50
+F1 "relay.sch" 50
+F2 "switch" I L 4650 6300 50
+F3 "in" I L 4650 6450 50
+F4 "out" O R 5500 6450 50
+$EndSheet
+$Comp
+L Connector_Generic:Conn_02x08_Odd_Even J3
+U 1 1 60179664
+P 2650 3500
+AR Path="/60179664" Ref="J3" Part="1"
+AR Path="/6017392C/60179664" Ref="J?" Part="1"
+F 0 "J3" H 2700 4017 50 0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 2700 3926 50 0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x08_P2.54mm_Horizontal" H 2650 3500 50 0001 C CNN
+F 3 "~" H 2650 3500 50 0001 C CNN
+F 4 "PPPC082LJBN-RC" H 2650 3500 50 0001 C CNN "MPN"
+F 5 "-" H 0 0 50 0001 C CNN "MFR"
+F 6 "-" H 0 0 50 0001 C CNN "SPR"
+F 7 "-" H 0 0 50 0001 C CNN "SPN"
+F 8 "-" H 0 0 50 0001 C CNN "SPURL"
+	1    2650 3500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60179679
+P 2350 4150
+AR Path="/5E732E91/60179679" Ref="#PWR?" Part="1"
+AR Path="/60179679" Ref="#PWR0101" Part="1"
+AR Path="/6017392C/60179679" Ref="#PWR?" Part="1"
+F 0 "#PWR0101" H 2350 3900 50 0001 C CNN
+F 1 "GND" H 2355 3977 50 0000 C CNN
+F 2 "" H 2350 4150 50 0001 C CNN
+F 3 "" H 2350 4150 50 0001 C CNN
+	1    2350 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Microchip:MCP23008-E_SO U1
+U 1 1 6017F6A6
+P 2700 5650
+F 0 "U1" H 2675 6315 50 0000 C CNN
+F 1 "MCP23008-E_SO" H 2675 6224 50 0000 C CNN
+F 2 "Package_SO:SOIC-18W_7.5x11.6mm_P1.27mm" H 2700 5050 50 0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21919e.pdf" H 2700 4950 50 0001 C CNN
+F 4 "MCP23008-E/SO" H 2700 4650 50 0001 C CNN "MPN"
+F 5 "Microchip" H 2700 4750 50 0001 C CNN "Manuf"
+F 6 "Microchip MCP23008-E/SO" H 2700 4850 50 0001 C CNN "BOM"
+F 7 "-" H 0 0 50 0001 C CNN "MFR"
+F 8 "-" H 0 0 50 0001 C CNN "SPR"
+F 9 "-" H 0 0 50 0001 C CNN "SPN"
+F 10 "-" H 0 0 50 0001 C CNN "SPURL"
+	1    2700 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J5
+U 1 1 6018A803
+P 5900 2600
+F 0 "J5" H 6000 2700 50 0000 C CNN
+F 1 "Conn_Coaxial" H 6250 2600 50 0000 C CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132134_Vertical" H 5900 2600 50 0001 C CNN
+F 3 " ~" H 5900 2600 50 0001 C CNN
+F 4 "-" H 0 0 50 0001 C CNN "MFR"
+F 5 "KH-SMA-P-8496" H 0 0 50 0001 C CNN "MPN"
+F 6 "-" H 0 0 50 0001 C CNN "SPR"
+F 7 "-" H 0 0 50 0001 C CNN "SPN"
+F 8 "-" H 0 0 50 0001 C CNN "SPURL"
+	1    5900 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 6018A809
+P 5900 2800
+F 0 "#PWR0102" H 5900 2550 50 0001 C CNN
+F 1 "GND" H 5905 2627 50 0000 C CNN
+F 2 "" H 5900 2800 50 0001 C CNN
+F 3 "" H 5900 2800 50 0001 C CNN
+	1    5900 2800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 0my_intf:Conn_01x04_i2c J?
+U 1 1 601BAE0F
+P 2350 1900
+AR Path="/5E7753D7/601BAE0F" Ref="J?" Part="1"
+AR Path="/6017392C/601BAE0F" Ref="J?" Part="1"
+AR Path="/601BAE0F" Ref="J2" Part="1"
+F 0 "J2" H 2333 1483 50 0000 C CNN
+F 1 "Conn_01x04_i2c" H 2333 1574 50 0000 C CNN
+F 2 "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical" H 2350 1900 50 0001 C CNN
+F 3 "~" H 2350 1900 50 0001 C CNN
+F 4 "JST_SH_BM04B-SRSS-TB" H 2350 1900 50 0001 C CNN "MPN"
+F 5 "-" H 0 0 50 0001 C CNN "MFR"
+F 6 "-" H 0 0 50 0001 C CNN "SPR"
+F 7 "-" H 0 0 50 0001 C CNN "SPN"
+F 8 "-" H 0 0 50 0001 C CNN "SPURL"
+	1    2350 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L 0my_intf:Conn_01x04_i2c J?
+U 1 1 601BB27D
+P 3200 1900
+AR Path="/5E7753D7/601BB27D" Ref="J?" Part="1"
+AR Path="/6017392C/601BB27D" Ref="J?" Part="1"
+AR Path="/601BB27D" Ref="J4" Part="1"
+F 0 "J4" H 3183 1483 50 0000 C CNN
+F 1 "Conn_01x04_i2c" H 3183 1574 50 0000 C CNN
+F 2 "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical" H 3200 1900 50 0001 C CNN
+F 3 "~" H 3200 1900 50 0001 C CNN
+F 4 "JST_PH_B4B-PH-K" H 3200 1900 50 0001 C CNN "MPN"
+F 5 "-" H 0 0 50 0001 C CNN "MFR"
+F 6 "-" H 0 0 50 0001 C CNN "SPR"
+F 7 "-" H 0 0 50 0001 C CNN "SPN"
+F 8 "-" H 0 0 50 0001 C CNN "SPURL"
+	1    3200 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J6
+U 1 1 601C40A1
+P 5900 3150
+F 0 "J6" H 6000 3250 50 0000 C CNN
+F 1 "Conn_Coaxial" H 6300 3150 50 0000 C CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132134_Vertical" H 5900 3150 50 0001 C CNN
+F 3 " ~" H 5900 3150 50 0001 C CNN
+F 4 "-" H 0 0 50 0001 C CNN "MFR"
+F 5 "KH-SMA-P-8496" H 0 0 50 0001 C CNN "MPN"
+F 6 "-" H 0 0 50 0001 C CNN "SPR"
+F 7 "-" H 0 0 50 0001 C CNN "SPN"
+F 8 "-" H 0 0 50 0001 C CNN "SPURL"
+	1    5900 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 601C40A7
+P 5900 3350
+F 0 "#PWR0103" H 5900 3100 50 0001 C CNN
+F 1 "GND" H 5905 3177 50 0000 C CNN
+F 2 "" H 5900 3350 50 0001 C CNN
+F 3 "" H 5900 3350 50 0001 C CNN
+	1    5900 3350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J7
+U 1 1 601C689A
+P 5900 3700
+F 0 "J7" H 6000 3800 50 0000 C CNN
+F 1 "Conn_Coaxial" H 6250 3700 50 0000 C CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132134_Vertical" H 5900 3700 50 0001 C CNN
+F 3 " ~" H 5900 3700 50 0001 C CNN
+F 4 "-" H 0 0 50 0001 C CNN "MFR"
+F 5 "KH-SMA-P-8496" H 0 0 50 0001 C CNN "MPN"
+F 6 "-" H 0 0 50 0001 C CNN "SPR"
+F 7 "-" H 0 0 50 0001 C CNN "SPN"
+F 8 "-" H 0 0 50 0001 C CNN "SPURL"
+	1    5900 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 601C68A0
+P 5900 3900
+F 0 "#PWR0104" H 5900 3650 50 0001 C CNN
+F 1 "GND" H 5905 3727 50 0000 C CNN
+F 2 "" H 5900 3900 50 0001 C CNN
+F 3 "" H 5900 3900 50 0001 C CNN
+	1    5900 3900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J8
+U 1 1 601C68A6
+P 5900 4250
+F 0 "J8" H 6000 4350 50 0000 C CNN
+F 1 "Conn_Coaxial" H 6300 4250 50 0000 C CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132134_Vertical" H 5900 4250 50 0001 C CNN
+F 3 " ~" H 5900 4250 50 0001 C CNN
+F 4 "-" H 0 0 50 0001 C CNN "MFR"
+F 5 "KH-SMA-P-8496" H 0 0 50 0001 C CNN "MPN"
+F 6 "-" H 0 0 50 0001 C CNN "SPR"
+F 7 "-" H 0 0 50 0001 C CNN "SPN"
+F 8 "-" H 0 0 50 0001 C CNN "SPURL"
+	1    5900 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 601C68AC
+P 5900 4450
+F 0 "#PWR0105" H 5900 4200 50 0001 C CNN
+F 1 "GND" H 5905 4277 50 0000 C CNN
+F 2 "" H 5900 4450 50 0001 C CNN
+F 3 "" H 5900 4450 50 0001 C CNN
+	1    5900 4450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J9
+U 1 1 601CB8A6
+P 5900 4800
+F 0 "J9" H 6000 4900 50 0000 C CNN
+F 1 "Conn_Coaxial" H 6250 4800 50 0000 C CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132134_Vertical" H 5900 4800 50 0001 C CNN
+F 3 " ~" H 5900 4800 50 0001 C CNN
+F 4 "-" H 0 0 50 0001 C CNN "MFR"
+F 5 "KH-SMA-P-8496" H 0 0 50 0001 C CNN "MPN"
+F 6 "-" H 0 0 50 0001 C CNN "SPR"
+F 7 "-" H 0 0 50 0001 C CNN "SPN"
+F 8 "-" H 0 0 50 0001 C CNN "SPURL"
+	1    5900 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 601CB8AC
+P 5900 5000
+F 0 "#PWR0106" H 5900 4750 50 0001 C CNN
+F 1 "GND" H 5905 4827 50 0000 C CNN
+F 2 "" H 5900 5000 50 0001 C CNN
+F 3 "" H 5900 5000 50 0001 C CNN
+	1    5900 5000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J10
+U 1 1 601CB8B2
+P 5900 5350
+F 0 "J10" H 6000 5450 50 0000 C CNN
+F 1 "Conn_Coaxial" H 6300 5350 50 0000 C CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132134_Vertical" H 5900 5350 50 0001 C CNN
+F 3 " ~" H 5900 5350 50 0001 C CNN
+F 4 "-" H 0 0 50 0001 C CNN "MFR"
+F 5 "KH-SMA-P-8496" H 0 0 50 0001 C CNN "MPN"
+F 6 "-" H 0 0 50 0001 C CNN "SPR"
+F 7 "-" H 0 0 50 0001 C CNN "SPN"
+F 8 "-" H 0 0 50 0001 C CNN "SPURL"
+	1    5900 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 601CB8B8
+P 5900 5550
+F 0 "#PWR0107" H 5900 5300 50 0001 C CNN
+F 1 "GND" H 5905 5377 50 0000 C CNN
+F 2 "" H 5900 5550 50 0001 C CNN
+F 3 "" H 5900 5550 50 0001 C CNN
+	1    5900 5550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J11
+U 1 1 601CB8BE
+P 5900 5900
+F 0 "J11" H 6000 6000 50 0000 C CNN
+F 1 "Conn_Coaxial" H 6250 5900 50 0000 C CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132134_Vertical" H 5900 5900 50 0001 C CNN
+F 3 " ~" H 5900 5900 50 0001 C CNN
+F 4 "-" H 0 0 50 0001 C CNN "MFR"
+F 5 "KH-SMA-P-8496" H 0 0 50 0001 C CNN "MPN"
+F 6 "-" H 0 0 50 0001 C CNN "SPR"
+F 7 "-" H 0 0 50 0001 C CNN "SPN"
+F 8 "-" H 0 0 50 0001 C CNN "SPURL"
+	1    5900 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 601CB8C4
+P 5900 6100
+F 0 "#PWR0108" H 5900 5850 50 0001 C CNN
+F 1 "GND" H 5905 5927 50 0000 C CNN
+F 2 "" H 5900 6100 50 0001 C CNN
+F 3 "" H 5900 6100 50 0001 C CNN
+	1    5900 6100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J12
+U 1 1 601CB8CA
+P 5900 6450
+F 0 "J12" H 6000 6550 50 0000 C CNN
+F 1 "Conn_Coaxial" H 6300 6450 50 0000 C CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132134_Vertical" H 5900 6450 50 0001 C CNN
+F 3 " ~" H 5900 6450 50 0001 C CNN
+F 4 "-" H 0 0 50 0001 C CNN "MFR"
+F 5 "KH-SMA-P-8496" H 0 0 50 0001 C CNN "MPN"
+F 6 "-" H 0 0 50 0001 C CNN "SPR"
+F 7 "-" H 0 0 50 0001 C CNN "SPN"
+F 8 "-" H 0 0 50 0001 C CNN "SPURL"
+	1    5900 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0109
+U 1 1 601CB8D0
+P 5900 6650
+F 0 "#PWR0109" H 5900 6400 50 0001 C CNN
+F 1 "GND" H 5905 6477 50 0000 C CNN
+F 2 "" H 5900 6650 50 0001 C CNN
+F 3 "" H 5900 6650 50 0001 C CNN
+	1    5900 6650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J1
+U 1 1 601D2B98
+P 2250 950
+F 0 "J1" H 2168 1167 50 0000 C CNN
+F 1 "Conn_01x02" H 2168 1076 50 0000 C CNN
+F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 2250 950 50 0001 C CNN
+F 3 "~" H 2250 950 50 0001 C CNN
+F 4 "B2B-PH-K-S(LF)(SN)" H 2250 950 50 0001 C CNN "MPN"
+F 5 "-" H 0 0 50 0001 C CNN "MFR"
+F 6 "-" H 0 0 50 0001 C CNN "SPR"
+F 7 "-" H 0 0 50 0001 C CNN "SPN"
+F 8 "-" H 0 0 50 0001 C CNN "SPURL"
+	1    2250 950 
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0110
+U 1 1 601D36FD
+P 2700 950
+F 0 "#PWR0110" H 2700 800 50 0001 C CNN
+F 1 "+5V" H 2715 1123 50 0000 C CNN
+F 2 "" H 2700 950 50 0001 C CNN
+F 3 "" H 2700 950 50 0001 C CNN
+	1    2700 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR0111
+U 1 1 601D4ECB
+P 3750 2000
+AR Path="/601D4ECB" Ref="#PWR0111" Part="1"
+AR Path="/601B3DC6/601D4ECB" Ref="#PWR?" Part="1"
+AR Path="/601BFE27/601D4ECB" Ref="#PWR?" Part="1"
+AR Path="/601C0138/601D4ECB" Ref="#PWR?" Part="1"
+AR Path="/601C013D/601D4ECB" Ref="#PWR?" Part="1"
+AR Path="/601C0780/601D4ECB" Ref="#PWR?" Part="1"
+AR Path="/601C0785/601D4ECB" Ref="#PWR?" Part="1"
+AR Path="/601C078A/601D4ECB" Ref="#PWR?" Part="1"
+AR Path="/601C078F/601D4ECB" Ref="#PWR?" Part="1"
+F 0 "#PWR0111" H 3750 1750 50 0001 C CNN
+F 1 "GNDD" H 3754 1845 50 0000 C CNN
+F 2 "" H 3750 2000 50 0001 C CNN
+F 3 "" H 3750 2000 50 0001 C CNN
+	1    3750 2000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR0112
+U 1 1 601D57D3
+P 2700 1050
+AR Path="/601D57D3" Ref="#PWR0112" Part="1"
+AR Path="/601B3DC6/601D57D3" Ref="#PWR?" Part="1"
+AR Path="/601BFE27/601D57D3" Ref="#PWR?" Part="1"
+AR Path="/601C0138/601D57D3" Ref="#PWR?" Part="1"
+AR Path="/601C013D/601D57D3" Ref="#PWR?" Part="1"
+AR Path="/601C0780/601D57D3" Ref="#PWR?" Part="1"
+AR Path="/601C0785/601D57D3" Ref="#PWR?" Part="1"
+AR Path="/601C078A/601D57D3" Ref="#PWR?" Part="1"
+AR Path="/601C078F/601D57D3" Ref="#PWR?" Part="1"
+F 0 "#PWR0112" H 2700 800 50 0001 C CNN
+F 1 "GNDD" H 2704 895 50 0000 C CNN
+F 2 "" H 2700 1050 50 0001 C CNN
+F 3 "" H 2700 1050 50 0001 C CNN
+	1    2700 1050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR0113
+U 1 1 601D67A5
+P 1900 6050
+AR Path="/601D67A5" Ref="#PWR0113" Part="1"
+AR Path="/601B3DC6/601D67A5" Ref="#PWR?" Part="1"
+AR Path="/601BFE27/601D67A5" Ref="#PWR?" Part="1"
+AR Path="/601C0138/601D67A5" Ref="#PWR?" Part="1"
+AR Path="/601C013D/601D67A5" Ref="#PWR?" Part="1"
+AR Path="/601C0780/601D67A5" Ref="#PWR?" Part="1"
+AR Path="/601C0785/601D67A5" Ref="#PWR?" Part="1"
+AR Path="/601C078A/601D67A5" Ref="#PWR?" Part="1"
+AR Path="/601C078F/601D67A5" Ref="#PWR?" Part="1"
+F 0 "#PWR0113" H 1900 5800 50 0001 C CNN
+F 1 "GNDD" H 1904 5895 50 0000 C CNN
+F 2 "" H 1900 6050 50 0001 C CNN
+F 3 "" H 1900 6050 50 0001 C CNN
+	1    1900 6050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0114
+U 1 1 601D85DC
+P 3800 1900
+F 0 "#PWR0114" H 3800 1750 50 0001 C CNN
+F 1 "VCC" V 3817 2028 50 0000 L CNN
+F 2 "" H 3800 1900 50 0001 C CNN
+F 3 "" H 3800 1900 50 0001 C CNN
+	1    3800 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR0115
+U 1 1 601D8D72
+P 1850 5250
+F 0 "#PWR0115" H 1850 5100 50 0001 C CNN
+F 1 "VCC" V 1868 5377 50 0000 L CNN
+F 2 "" H 1850 5250 50 0001 C CNN
+F 3 "" H 1850 5250 50 0001 C CNN
+	1    1850 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 601DC587
+P 2000 5050
+AR Path="/59ED0E6A/601DC587" Ref="C?" Part="1"
+AR Path="/59ED3D7B/601DC587" Ref="C?" Part="1"
+AR Path="/59ED3D94/601DC587" Ref="C?" Part="1"
+AR Path="/59ED3DAD/601DC587" Ref="C?" Part="1"
+AR Path="/5E20A416/601DC587" Ref="C?" Part="1"
+AR Path="/601DC587" Ref="C1" Part="1"
+AR Path="/5E39C8D9/601DC587" Ref="C?" Part="1"
+AR Path="/5E7753D7/601DC587" Ref="C?" Part="1"
+AR Path="/6017392C/601DC587" Ref="C?" Part="1"
+AR Path="/601B43CB/601DC587" Ref="C?" Part="1"
+F 0 "C1" H 2025 5150 50 0000 L CNN
+F 1 "100nF" H 1650 5050 50 0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2038 4900 50 0001 C CNN
+F 3 "" H 2000 5050 50 0001 C CNN
+F 4 "CC0603KRX7R9BB104" H 2000 5050 60 0001 C CNN "Part"
+F 5 "490-1767-1-ND " H 2000 5050 60 0001 C CNN "Digikey"
+F 6 "CC0603KPX7R7BB104" H -2750 1700 50 0001 C CNN "MPN"
+F 7 "LCSC" H -2750 1700 50 0001 C CNN "SPR"
+F 8 "C14663" H -2750 1700 50 0001 C CNN "SPN"
+F 9 "-" H -2750 1700 50 0001 C CNN "SPURL"
+F 10 "Yageo" H -1850 2450 50 0001 C CNN "MFR"
+	1    2000 5050
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GNDD #PWR0116
+U 1 1 601DC8E1
+P 2000 4900
+AR Path="/601DC8E1" Ref="#PWR0116" Part="1"
+AR Path="/601B3DC6/601DC8E1" Ref="#PWR?" Part="1"
+AR Path="/601BFE27/601DC8E1" Ref="#PWR?" Part="1"
+AR Path="/601C0138/601DC8E1" Ref="#PWR?" Part="1"
+AR Path="/601C013D/601DC8E1" Ref="#PWR?" Part="1"
+AR Path="/601C0780/601DC8E1" Ref="#PWR?" Part="1"
+AR Path="/601C0785/601DC8E1" Ref="#PWR?" Part="1"
+AR Path="/601C078A/601DC8E1" Ref="#PWR?" Part="1"
+AR Path="/601C078F/601DC8E1" Ref="#PWR?" Part="1"
+F 0 "#PWR0116" H 2000 4650 50 0001 C CNN
+F 1 "GNDD" H 2004 4745 50 0000 C CNN
+F 2 "" H 2000 4900 50 0001 C CNN
+F 3 "" H 2000 4900 50 0001 C CNN
+	1    2000 4900
+	1    0    0    1   
+$EndComp
+Text Label 2850 3200 0    50   ~ 0
+in0
+Text Label 2850 3900 0    50   ~ 0
+in7
+Text Label 2850 3800 0    50   ~ 0
+in6
+Text Label 2850 3700 0    50   ~ 0
+in5
+Text Label 2850 3600 0    50   ~ 0
+in4
+Text Label 2850 3500 0    50   ~ 0
+in3
+Text Label 2850 3400 0    50   ~ 0
+in2
+Text Label 2850 3300 0    50   ~ 0
+in1
+Text Label 3150 5250 0    50   ~ 0
+s0
+Text Label 3150 5950 0    50   ~ 0
+s7
+Text Label 3150 5850 0    50   ~ 0
+s6
+Text Label 3150 5750 0    50   ~ 0
+s5
+Text Label 3150 5650 0    50   ~ 0
+s4
+Text Label 3150 5550 0    50   ~ 0
+s3
+Text Label 3150 5450 0    50   ~ 0
+s2
+Text Label 3150 5350 0    50   ~ 0
+s1
+Text Label 4650 2600 2    50   ~ 0
+in0
+Text Label 4650 6450 2    50   ~ 0
+in7
+Text Label 4650 5900 2    50   ~ 0
+in6
+Text Label 4650 5350 2    50   ~ 0
+in5
+Text Label 4650 4800 2    50   ~ 0
+in4
+Text Label 4650 4250 2    50   ~ 0
+in3
+Text Label 4650 3700 2    50   ~ 0
+in2
+Text Label 4650 3150 2    50   ~ 0
+in1
+Text Label 4650 2450 2    50   ~ 0
+s0
+Text Label 4650 6300 2    50   ~ 0
+s7
+Text Label 4650 5750 2    50   ~ 0
+s6
+Text Label 4650 5200 2    50   ~ 0
+s5
+Text Label 4650 4650 2    50   ~ 0
+s4
+Text Label 4650 4100 2    50   ~ 0
+s3
+Text Label 4650 3550 2    50   ~ 0
+s2
+Text Label 4650 3000 2    50   ~ 0
+s1
+Text Label 3650 1700 0    50   ~ 0
+scl
+Text Label 4250 1800 0    50   ~ 0
+sda
+Text Label 2200 5450 2    50   ~ 0
+sda
+Text Label 2200 5350 2    50   ~ 0
+scl
+Wire Wire Line
+	2350 3200 2350 3300
+Wire Wire Line
+	2350 3300 2350 3400
+Wire Wire Line
+	2350 3400 2350 3500
+Wire Wire Line
+	2350 3500 2350 3600
+Wire Wire Line
+	2350 3600 2350 3700
+Wire Wire Line
+	2350 3700 2350 3800
+Wire Wire Line
+	2350 3800 2350 3900
+Wire Wire Line
+	2350 3900 2350 4150
+Wire Wire Line
+	2550 1700 3400 1700
+Wire Wire Line
+	2550 1800 3400 1800
+Wire Wire Line
+	2550 1900 3400 1900
+Wire Wire Line
+	2550 2000 3400 2000
+Wire Wire Line
+	3400 1700 3650 1700
+Wire Wire Line
+	3400 1800 4250 1800
+Wire Wire Line
+	3400 1900 3800 1900
+Wire Wire Line
+	3400 2000 3750 2000
+Wire Wire Line
+	5500 2600 5700 2600
+Wire Wire Line
+	5700 3150 5500 3150
+Wire Wire Line
+	5500 3700 5700 3700
+Wire Wire Line
+	5700 4250 5500 4250
+Wire Wire Line
+	5500 4800 5700 4800
+Wire Wire Line
+	5700 5350 5500 5350
+Wire Wire Line
+	5500 5900 5700 5900
+Wire Wire Line
+	5700 6450 5500 6450
+Wire Wire Line
+	2450 1050 2700 1050
+Wire Wire Line
+	2700 950  2450 950 
+Wire Wire Line
+	2200 6050 1900 6050
+Wire Wire Line
+	2200 5250 2000 5250
+Wire Wire Line
+	2200 5550 1900 5550
+Wire Wire Line
+	1900 5550 1900 5650
+Wire Wire Line
+	2200 5650 1900 5650
+Wire Wire Line
+	1900 5650 1900 5750
+Wire Wire Line
+	2200 5750 1900 5750
+Wire Wire Line
+	1900 5750 1900 5850
+Wire Wire Line
+	2200 5850 1900 5850
+Wire Wire Line
+	1900 5850 1900 6050
+Wire Wire Line
+	2000 5200 2000 5250
+Wire Wire Line
+	2000 5250 1850 5250
+Connection ~ 2350 3300
+Connection ~ 2350 3400
+Connection ~ 2350 3500
+Connection ~ 2350 3600
+Connection ~ 2350 3700
+Connection ~ 2350 3800
+Connection ~ 2350 3900
+Connection ~ 3400 1700
+Connection ~ 3400 1800
+Connection ~ 3400 1900
+Connection ~ 3400 2000
+Connection ~ 1900 6050
+Connection ~ 1900 5650
+Connection ~ 1900 5750
+Connection ~ 1900 5850
+Connection ~ 2000 5250
+NoConn ~ 2200 5950
+$EndSCHEMATC

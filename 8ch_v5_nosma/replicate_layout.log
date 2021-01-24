@@ -1,0 +1,69 @@
+01-09 16:55:51 replicate_layout.action_replicate_layout 295:Replicate layout plugin version: 51 started
+01-09 16:55:52 replicate_layout.action_replicate_layout 327:Preparing replicator with F3 as a reference
+01-09 16:55:52 replicate_layout.replicatelayout 201:getting project hierarchy from schematics
+01-09 16:55:52 replicate_layout.replicatelayout 203:Project hierarchy looks like:
+{'5E70F67C': ['sheet5E70F675', u'/Users/nams/Documents/projects/supercables_electronics/8ch_v5_nosma/channel.sch'], '5E7753D7': ['Sheet5E7753D6', u'/Users/nams/Documents/projects/supercables_electronics/8ch_v5_nosma/dac_AD5675.sch'], '5E20A416': ['Sheet5E20A415', u'/Users/nams/Documents/projects/supercables_electronics/8ch_v5_nosma/channel.sch'], '5E7078DA': ['sheet5E7078C1', u'/Users/nams/Documents/projects/supercables_electronics/8ch_v5_nosma/channel.sch'], '5E7078C5': ['sheet5E7078C0', u'/Users/nams/Documents/projects/supercables_electronics/8ch_v5_nosma/channel.sch'], '5E7AB331': ['sheet5E7AB32F', u'/Users/nams/Documents/projects/supercables_electronics/8ch_v5_nosma/power2.sch'], '5E70F6A6': ['sheet5E70F677', u'/Users/nams/Documents/projects/supercables_electronics/8ch_v5_nosma/channel.sch'], '5E70F691': ['sheet5E70F676', u'/Users/nams/Documents/projects/supercables_electronics/8ch_v5_nosma/channel.sch'], '5E6FDFF7': ['sheet5E6FDFF3', u'/Users/nams/Documents/projects/supercables_electronics/8ch_v5_nosma/channel.sch'], '5E70F6BB': ['sheet5E70F678', u'/Users/nams/Documents/projects/supercables_electronics/8ch_v5_nosma/channel.sch']}
+01-09 16:55:52 replicate_layout.replicatelayout 211:getting a list of all footprints on board
+01-09 16:55:52 replicate_layout.action_replicate_layout 353:Pivot footprint is u'F3'
+Located on:['sheet5E6FDFF3', 'sheet5E7AB32F']
+With filenames:[u'channel.sch', u'power2.sch']
+With sheet_id:['sheet5E6FDFF3', 'sheet5E7AB32F']
+01-09 16:55:52 replicate_layout.action_replicate_layout 357:Corresponding footprints are 
+[(u'F15', ['sheet5E70F678', 'sheet5E7AB32F']), (u'F13', ['sheet5E70F677', 'sheet5E7AB32F']), (u'F11', ['sheet5E70F676', 'sheet5E7AB32F']), (u'F9', ['sheet5E70F675', 'sheet5E7AB32F']), (u'F7', ['sheet5E7078C1', 'sheet5E7AB32F']), (u'F5', ['sheet5E7078C0', 'sheet5E7AB32F']), (u'F3', ['sheet5E6FDFF3', 'sheet5E7AB32F']), (u'F1', ['Sheet5E20A415', 'sheet5E7AB32F'])]
+01-09 16:55:52 replicate_layout.action_replicate_layout 370:Showing dialog
+01-09 16:55:52 replicate_layout.action_replicate_layout 374:Pcbnew position: wx.Point(186, 41)
+01-09 16:55:52 replicate_layout.action_replicate_layout 380:Display 0: wx.Rect(0, 0, 1440, 900)
+01-09 16:55:52 replicate_layout.action_replicate_layout 384:Toolbar position: wx.Point(1079, 141)
+01-09 16:55:52 replicate_layout.action_replicate_layout 391:Dialog position: wx.Point(766, 141)
+01-09 16:56:10 replicate_layout.replicatelayout 238:construcing a list of sheets suitable for replication on level:'sheet5E7AB32F', file:u'power2.sch'
+01-09 16:56:10 replicate_layout.replicatelayout 245:Sheet ids up to the level:['sheet5E6FDFF3', 'sheet5E7AB32F']
+01-09 16:56:10 replicate_layout.replicatelayout 249:Footprints on the sheets:
+[u'F15', u'F13', u'F11', u'F9', u'F7', u'F5', u'F3', u'F1']
+01-09 16:56:10 replicate_layout.replicatelayout 252:Footprints raw sheet ids:
+[u'/5E70F6BB/5E7AB331/5E7E8A41', u'/5E70F6A6/5E7AB331/5E7E8A41', u'/5E70F691/5E7AB331/5E7E8A41', u'/5E70F67C/5E7AB331/5E7E8A41', u'/5E7078DA/5E7AB331/5E7E8A41', u'/5E7078C5/5E7AB331/5E7E8A41', u'/5E6FDFF7/5E7AB331/5E7E8A41', u'/5E20A416/5E7AB331/5E7E8A41']
+01-09 16:56:10 replicate_layout.replicatelayout 268:All sheets to replicate:
+[['sheet5E70F678', 'sheet5E7AB32F'], ['sheet5E70F677', 'sheet5E7AB32F'], ['sheet5E70F676', 'sheet5E7AB32F'], ['sheet5E70F675', 'sheet5E7AB32F'], ['sheet5E7078C1', 'sheet5E7AB32F'], ['sheet5E7078C0', 'sheet5E7AB32F'], ['sheet5E6FDFF3', 'sheet5E7AB32F'], ['Sheet5E20A415', 'sheet5E7AB32F']]
+01-09 16:56:10 replicate_layout.replicatelayout 273:All sheets to replicate sorted:
+[['Sheet5E20A415', 'sheet5E7AB32F'], ['sheet5E6FDFF3', 'sheet5E7AB32F'], ['sheet5E7078C0', 'sheet5E7AB32F'], ['sheet5E7078C1', 'sheet5E7AB32F'], ['sheet5E70F675', 'sheet5E7AB32F'], ['sheet5E70F676', 'sheet5E7AB32F'], ['sheet5E70F677', 'sheet5E7AB32F'], ['sheet5E70F678', 'sheet5E7AB32F']]
+01-09 16:56:10 replicate_layout.replicatelayout 279:All sheets to replicate sorted and without pivot_sheet:
+[['Sheet5E20A415', 'sheet5E7AB32F'], ['sheet5E7078C0', 'sheet5E7AB32F'], ['sheet5E7078C1', 'sheet5E7AB32F'], ['sheet5E70F675', 'sheet5E7AB32F'], ['sheet5E70F676', 'sheet5E7AB32F'], ['sheet5E70F677', 'sheet5E7AB32F'], ['sheet5E70F678', 'sheet5E7AB32F']]
+01-09 16:56:10 replicate_layout.action_replicate_layout 170:Replicating layout
+01-09 16:56:10 replicate_layout.replicatelayout 968:Starting replication of sheets: []
+on level: []
+with tracks=True, zone=True, text=True, containing=True, remov=True
+01-09 16:56:10 root 250:updating GUI message: 'Preparing for replication'
+01-09 16:56:10 root 255:updating GUI with: 0
+01-09 16:56:10 replicate_layout.replicatelayout 542:Getting the list of pivot footprints
+01-09 16:56:10 root 255:updating GUI with: 0
+01-09 16:56:10 replicate_layout.replicatelayout 546:Getting the list of all the remaining footprints
+01-09 16:56:10 replicate_layout.replicatelayout 550:Getting nets local to pivot footprints
+01-09 16:56:10 replicate_layout.replicatelayout 554:Getting pivot bounding box
+01-09 16:56:10 root 255:updating GUI with: 37
+01-09 16:56:10 replicate_layout.replicatelayout 558:Getting pivot tracks
+01-09 16:56:10 root 255:updating GUI with: 50
+01-09 16:56:10 replicate_layout.replicatelayout 562:Getting pivot zones
+01-09 16:56:10 root 255:updating GUI with: 62
+01-09 16:56:10 replicate_layout.replicatelayout 566:Getting pivot text items
+01-09 16:56:10 replicate_layout.replicatelayout 570:Getting pivot text items
+01-09 16:56:10 replicate_layout.replicatelayout 994:Removing tracks and zones, before module placement
+01-09 16:56:10 root 250:updating GUI message: 'Removing zones and tracks'
+01-09 16:56:10 root 250:updating GUI message: 'Replicating footprints'
+01-09 16:56:10 root 255:updating GUI with: 0
+01-09 16:56:10 replicate_layout.replicatelayout 576:Replicating footprints
+01-09 16:56:10 replicate_layout.replicatelayout 1002:Removing tracks and zones, after module placement
+01-09 16:56:10 root 250:updating GUI message: 'Removing zones and tracks'
+01-09 16:56:10 root 255:updating GUI with: 0
+01-09 16:56:10 root 250:updating GUI message: 'Replicating tracks'
+01-09 16:56:10 root 255:updating GUI with: 0
+01-09 16:56:10 replicate_layout.replicatelayout 696:Replicating tracks
+01-09 16:56:10 root 250:updating GUI message: 'Replicating zones'
+01-09 16:56:10 root 255:updating GUI with: 0
+01-09 16:56:10 replicate_layout.replicatelayout 747:Replicating zones
+01-09 16:56:10 root 250:updating GUI message: 'Replicating text'
+01-09 16:56:10 replicate_layout.replicatelayout 813:Replicating text
+01-09 16:56:10 root 250:updating GUI message: 'Replicating drawings'
+01-09 16:56:10 root 255:updating GUI with: 0
+01-09 16:56:10 replicate_layout.replicatelayout 843:Replicating drawings
+01-09 16:56:10 root 250:updating GUI message: 'Removing duplicates'
+01-09 16:56:10 root 255:updating GUI with: 0
+01-09 16:56:11 replicate_layout.action_replicate_layout 190:Replication complete
