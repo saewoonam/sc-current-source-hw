@@ -1,0 +1,27 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 17
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 0my_actives:ADS1115board B?
+U 1 1 600A2182
+P 7400 2150
+F 0 "B?" H 7728 1653 60  0000 L CNN
+F 1 "ADS1115board" H 7728 1547 60  0000 L CNN
+F 2 "" H 7400 2150 60  0001 C CNN
+F 3 "" H 7400 2150 60  0001 C CNN
+	1    7400 2150
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

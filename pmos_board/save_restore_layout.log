@@ -1,0 +1,19 @@
+01-21 10:43:10 save_restore_layout.action_save_restore_layout 154:Plugin executed with python version: '2.7.16 (default, Nov 26 2019, 02:03:00) \n[GCC 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2)]'
+01-21 10:43:10 save_restore_layout.action_save_restore_layout 155:Save/Restore Layout plugin version: 30 started
+01-21 10:43:12 save_restore_layout.action_save_restore_layout 192:Save layout chosen
+01-21 10:43:12 save_restore_layout.save_restore_layout 805:Saving the current board temporary in order to leave current layout intact
+01-21 10:43:12 save_restore_layout.save_restore_layout 815:Getting schematics info
+01-21 10:43:12 save_restore_layout.save_restore_layout 150:getting project hierarchy from schematics
+01-21 10:43:12 save_restore_layout.save_restore_layout 152:Project hierarchy looks like:
+{'5FF8B431': ['sheet5FF8B42D', u'/Users/nams/Documents/projects/supercables_electronics/pmos_board/coax_ch.sch'], '5FF88EFB': ['Sheet5FF88EFA', u'/Users/nams/Documents/projects/supercables_electronics/pmos_board/coax_ch.sch'], '5FF8B434': ['sheet5FF8B42E', u'/Users/nams/Documents/projects/supercables_electronics/pmos_board/coax_ch.sch'], '5FF8BA7C': ['sheet5FF8BA70', u'/Users/nams/Documents/projects/supercables_electronics/pmos_board/coax_ch.sch'], '5FF8BA79': ['sheet5FF8BA6F', u'/Users/nams/Documents/projects/supercables_electronics/pmos_board/coax_ch.sch'], '5FF8BA73': ['sheet5FF8BA6D', u'/Users/nams/Documents/projects/supercables_electronics/pmos_board/coax_ch.sch'], '5FF8BA76': ['sheet5FF8BA6E', u'/Users/nams/Documents/projects/supercables_electronics/pmos_board/coax_ch.sch'], '5FF8AEBC': ['sheet5FF8AEB9', u'/Users/nams/Documents/projects/supercables_electronics/pmos_board/coax_ch.sch']}
+01-21 10:43:12 save_restore_layout.save_restore_layout 817:Getting layout info
+01-21 10:43:12 save_restore_layout.save_restore_layout 225:getting a list of all footprints on board
+01-21 10:43:12 save_restore_layout.save_restore_layout 819:Updating layout info with schematics info
+01-21 10:43:14 root 47:highlighting module: u'R7'
+01-21 10:43:14 root 47:highlighting module: u'FB7'
+01-21 10:43:14 root 47:highlighting module: u'C15'
+01-21 10:43:14 root 47:highlighting module: u'C14'
+01-21 10:43:14 root 47:highlighting module: u'U8'
+01-21 10:43:14 root 47:highlighting module: u'R15'
+01-21 10:43:14 root 47:highlighting module: u'J16'
+01-21 10:43:14 root 47:highlighting module: u'J15'
