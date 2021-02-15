@@ -75,10 +75,10 @@ console.log('json_url', json_url);
 content = `
 <html>
 <head>
-  <meta http-equiv="refresh" content="5; URL=https://saewoonam.github.io/reroute-to-viewer/index.html?url=${json_url}" />
+  <meta http-equiv="refresh" content="1; URL=https://saewoonam.github.io/reroute-to-viewer/index.html?url=${json_url}" />
 </head>
 <body>
-  <p>If you are not redirected in five seconds, <a href="https://www.bitdegree.org/">click here</a>.</p>
+  <p>If you are not redirected in one second, <a href="https://saewoonam.github.io/reroute-to-viewer/index.html?url=${json_url}">click here</a>.</p>
 </body>
 </html>
 `
