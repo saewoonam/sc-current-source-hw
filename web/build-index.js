@@ -70,7 +70,7 @@ fs.writeFileSync('output.json', JSON.stringify(tree))
 
 let branch_name = process.env.GITHUB_REF.split('/').pop()
 let json_url = "https://raw.githubusercontent.com/"+process.env.GITHUB_REPOSITORY;
-json_url += "/"+branch_name+"/js/output.json"
+json_url += "/"+branch_name+"/web/output.json"
 console.log('json_url', json_url);
 content = `
 <html>
@@ -82,4 +82,4 @@ content = `
 </body>
 </html>
 `
-fs.writeFileSync('../web/index.html', content);
+fs.writeFileSync('index.html', content);
