@@ -67,6 +67,8 @@ do {
 } while (before.length != after.length)
 
 fs.writeFileSync('output.json', JSON.stringify(tree))
+
+let branch_name = process.env.GITHUB_REF.split('/').pop()
 let json_url = "https://raw.githubusercontent.com/"+process.env.GITHUB_REPOSITORY;
 json_url += "/"+branch_name+"/js/output.json"
 console.log('json_url', json_url);
