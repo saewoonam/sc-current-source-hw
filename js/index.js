@@ -82,4 +82,4 @@ content = `
 </body>
 </html>
 `
-fs.writeFileSync('../web/index.html', contents);
+fs.writeFileSync('../web/index.html', content);
