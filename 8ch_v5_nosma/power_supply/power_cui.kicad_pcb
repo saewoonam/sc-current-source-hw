@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 1)
+    (last_trace_width 0.25)
     (user_trace_width 1)
     (trace_clearance 0.2)
     (zone_clearance 0.508)
@@ -1911,6 +1911,11 @@
       (net 5 "Net-(C3-Pad2)"))
     (pad 6 thru_hole circle (at 10.16 -10.16 90) (size 2.25 2.25) (drill 1.5) (layers *.Cu *.Mask)
       (net 10 "Net-(U1-Pad6)"))
+    (model ${KIPRJMOD}/3D/CUI_PDQE10-Q24-D5-D.step
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (module Varistor:RV_Disc_D21.5mm_W4.9mm_P10mm (layer F.Cu) (tedit 5A0F68DF) (tstamp 600333F0)

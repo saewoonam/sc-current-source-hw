@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 1)
+    (last_trace_width 0.25)
     (user_trace_width 1)
     (trace_clearance 0.2)
     (zone_clearance 0.508)
@@ -89,7 +89,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "gerbers/jlc/"))
+      (outputdirectory "gerbers/jlc-fet/"))
   )
 
   (net 0 "")
@@ -2687,7 +2687,7 @@
   (segment (start 144.7 66.35) (end 147.8 63.25) (width 1) (layer F.Cu) (net 36) (status 10))
   (segment (start 147.8 62.15) (end 147.8 55.85) (width 1) (layer F.Cu) (net 36) (status 30))
 
-  (zone (net 7) (net_name GND) (layer F.Cu) (tstamp 600DE8F6) (hatch edge 0.508)
+  (zone (net 7) (net_name GND) (layer F.Cu) (tstamp 600DE909) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -3179,7 +3179,7 @@
       )
     )
   )
-  (zone (net 7) (net_name GND) (layer B.Cu) (tstamp 600DE8F3) (hatch edge 0.508)
+  (zone (net 7) (net_name GND) (layer B.Cu) (tstamp 600DE906) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -3342,7 +3342,7 @@
       )
     )
   )
-  (zone (net 3) (net_name "Net-(C2-Pad2)") (layer F.Cu) (tstamp 600DE8F0) (hatch edge 0.508)
+  (zone (net 3) (net_name "Net-(C2-Pad2)") (layer F.Cu) (tstamp 600DE903) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
