@@ -11,8 +11,8 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
       #  - run: yarn install
-      - run: cd js
-      - run: node index.js
+      - run: cd js && node index.js
+      # - run: node index.js
       - name: try to push a new file to the repo
         run: |
           # date > generated.txt
